@@ -21,13 +21,22 @@ In this example, we gather information from the machine.
 - how many liters of water is it using?
 - how many kilos of coffee is it using?
 - what is the actual brewing time?
+- how many meters is the convoyer doing? Should it need a maintenance break :-)
 - how many visits are made to the machine?
 - ...
 
 And we are going visualize the data.
 
-To run this program, you just need to download the repository.
-Summarized you need to 
+To run this example, you just need to download the repository.
+It includes
+- the machine
+- the machine visualisation (VNC)
+- the mosquitto broker (MQTT)
+- PLTrend - the communicator
+- Node-Red Dashboard (and flow) to retrieve data, examine data and display data
+
+Summarized you need to do as follows
+
 1) start the machine program
 2) start vnc visualisation, to actually make coffees and so on
 3) start mosquitto broker 
