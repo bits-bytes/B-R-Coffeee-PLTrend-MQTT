@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AcoposParameterConfiguration>
+  <Root Name="SL1.IF1.ST2">
+    <Group Name="SS2" />
+  </Root>
+  <Root Name="SL1.IF1.ST1">
+    <Group Name="SS2" />
+  </Root>
+</AcoposParameterConfiguration>

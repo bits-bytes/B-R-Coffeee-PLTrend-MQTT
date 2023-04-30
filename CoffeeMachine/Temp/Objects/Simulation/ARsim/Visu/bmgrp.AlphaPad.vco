@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="2" Type="REF" RefString="Source[local].BitmapGroup[AlphaPad]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="AlphaPad" ClsId="0x308" Version="1" TargetIndex="2" Type="BMPG" RefString="Source[local].BitmapGroup[AlphaPad_en]">
+            <UInt32 Name="Count">8</UInt32>
+            <Group Name="AlphaPad_lower">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_lower]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="AlphaPad_lowerPressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_lowerPressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="AlphaPad_upper">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_upper]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numeric">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numeric]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="AlphaPad_upperPressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_upperPressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numericPressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numericPressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numeric2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numeric2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numeric2Pressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numeric2Pressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="AlphaPad" ClsId="0x308" Version="1" TargetIndex="2" Type="BMPG" RefString="Source[local].BitmapGroup[AlphaPad_de]">
+            <UInt32 Name="Count">8</UInt32>
+            <Group Name="AlphaPad_lower">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_lower]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="AlphaPad_lowerPressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_lowerPressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="AlphaPad_upper">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_upper]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numeric">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numeric]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="AlphaPad_upperPressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_upperPressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numericPressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numericPressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numeric2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numeric2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numeric2Pressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numeric2Pressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="zh-CN" TargetIndex="2">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="AlphaPad" ClsId="0x308" Version="1" TargetIndex="2" Type="BMPG" RefString="Source[local].BitmapGroup[AlphaPad_zh-CN]">
+            <UInt32 Name="Count">8</UInt32>
+            <Group Name="AlphaPad_lower">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_lower]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="AlphaPad_lowerPressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_lowerPressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="AlphaPad_upper">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_upper]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numeric">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numeric]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="AlphaPad_upperPressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_upperPressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numericPressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numericPressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numeric2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numeric2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="AlphaPad_numeric2Pressed">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[AlphaPad_numeric2Pressed]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<Fonts>
+  <Font FamilyName="Arial" BrName="arialbd" FilePath="C:\Windows\fonts\arialbd.TTF" Bold="True" Italic="False" Size="10" RenderSize="16" />
+  <Font FamilyName="Arial Unicode" BrName="arialxsr" FilePath="C:\Windows\fonts\ARIALUNIBR.TTF" Bold="False" Italic="False" Size="10" RenderSize="18" />
+  <Font FamilyName="Arial Unicode" BrName="arialxsr" FilePath="C:\Windows\fonts\ARIALUNIBR.TTF" Bold="False" Italic="False" Size="12" RenderSize="21" />
+  <Font FamilyName="Arial" BrName="arial" FilePath="C:\Windows\fonts\arial.TTF" Bold="False" Italic="False" Size="18" RenderSize="27" />
+  <Font FamilyName="Arial Unicode" BrName="arialxsr" FilePath="C:\Windows\fonts\ARIALUNIBR.TTF" Bold="False" Italic="False" Size="18" RenderSize="33" />
+  <Font FamilyName="Arial" BrName="arialbd" FilePath="C:\Windows\fonts\arialbd.TTF" Bold="True" Italic="False" Size="9" RenderSize="15" />
+  <Font FamilyName="Arial" BrName="arial" FilePath="C:\Windows\fonts\arial.TTF" Bold="False" Italic="False" Size="9" RenderSize="15" />
+  <Font FamilyName="Arial Unicode" BrName="arialxsr" FilePath="C:\Windows\fonts\ARIALUNIBR.TTF" Bold="False" Italic="False" Size="11" RenderSize="20" />
+  <Font FamilyName="Arial" BrName="arialbd" FilePath="C:\Windows\fonts\arialbd.TTF" Bold="True" Italic="False" Size="12" RenderSize="19" />
+  <Font FamilyName="Arial" BrName="arial" FilePath="C:\Windows\fonts\arial.TTF" Bold="False" Italic="False" Size="8" RenderSize="14" />
+</Fonts>

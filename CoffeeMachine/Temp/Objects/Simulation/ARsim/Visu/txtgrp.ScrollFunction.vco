@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="TextGroupBase">
+    <Folder Name="ScrollFunction" TargetIndex="Source[local].TextGroup[ScrollFunction]">
+      <Object Name="ScrollFunction" ClsId="0x304" Version="1" TargetIndex="11" Type="TG" RefString="Source[local].TextGroup[ScrollFunction]">
+        <UInt32 Name="NumberOfTags">1</UInt32>
+        <UInt32 Name="NumberOfTexts">2</UInt32>
+        <Table Name="TextMap" Cols="2">
+          <TableHeader>
+            <Column Name="UserIndex" />
+            <Column Name="TextIndex" />
+          </TableHeader>
+          <TableRow>
+            <UInt32 Name="UserIndex">0</UInt32>
+            <UInt32 Name="TextIndex">92536</UInt32>
+          </TableRow>
+          <TableRow>
+            <UInt32 Name="UserIndex">1</UInt32>
+            <UInt32 Name="TextIndex">92535</UInt32>
+          </TableRow>
+        </Table>
+      </Object>
+    </Folder>
+  </Folder>
+  <Folder Name="TextGroupBase">
+    <Folder Name="ScrollFunction">
+      <Folder Name="TextSnippets">
+        <Object Name="SnpScrolltime" ClsId="0x2001" Version="1" Type="SNP" RefString="Source[local].TextGroup[ScrollFunction].Snippet[SnpScrolltime]">
+          <Reference Name="Datapoint" Type="DP">Source[global].Variable[DataSource.Visualisation.visTrend.displayTimeRange]</Reference>
+          <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00002001].StyleClass[default]</Reference>
+          <UInt16 Name="StyleTableSize">16</UInt16>
+          <UInt16 Name="Reserved">0</UInt16>
+          <Group Name="MinChars">
+            <UInt16 Name="Offset">0</UInt16>
+            <UInt16 Name="Size">2</UInt16>
+            <UInt16 Name="Data">4</UInt16>
+          </Group>
+          <Group Name="MaxChars">
+            <UInt16 Name="Offset">2</UInt16>
+            <UInt16 Name="Size">2</UInt16>
+            <UInt16 Name="Data">4</UInt16>
+          </Group>
+          <Group Name="End Marker">
+            <UInt16 Name="Offset">65535</UInt16>
+            <UInt16 Name="Size">0</UInt16>
+          </Group>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].TextGroup[ScrollFunction]" Type="TG" RefString="Source[local].TextGroup[ScrollFunction].Language[en]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">92535</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">92536</UInt32>
+                <UInt32 Name="TextOffset">52</UInt32>
+                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Area scroll"</String>
+              <String Name="Text" Encoding="Unicode">"Scroll &#x1;SnpScrolltime&#x2; seconds"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].TextGroup[ScrollFunction]" Type="TG" RefString="Source[local].TextGroup[ScrollFunction].Language[de]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">92535</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">92536</UInt32>
+                <UInt32 Name="TextOffset">68</UInt32>
+                <Byte Name="SnippetCount">1</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">"Scrollen um Bereich"</String>
+              <String Name="Text" Encoding="Unicode">"Scrollen um &#x1;SnpScrolltime&#x2; Sekunden"</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+  <Folder Name="Language">
+    <Folder Name="zh-CN" TargetIndex="2">
+      <Folder Name="TextGroups">
+        <Folder Name="POBJ">
+          <Object Name="TextGroupData" ClsId="0x303" Version="1" TargetIndex="Source[local].TextGroup[ScrollFunction]" Type="TG" RefString="Source[local].TextGroup[ScrollFunction].Language[zh-CN]">
+            <UInt32 Name="NumberOfTexts">2</UInt32>
+            <Table Name="TextOffsets" Cols="5">
+              <TableHeader>
+                <Column Name="TextIndex" />
+                <Column Name="TextOffset" />
+                <Column Name="SnippetCount" />
+                <Column Name="Reserved" />
+                <Column Name="Reserved" />
+              </TableHeader>
+              <TableRow>
+                <UInt32 Name="TextIndex">92535</UInt32>
+                <UInt32 Name="TextOffset">28</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+              <TableRow>
+                <UInt32 Name="TextIndex">92536</UInt32>
+                <UInt32 Name="TextOffset">30</UInt32>
+                <Byte Name="SnippetCount">0</Byte>
+                <Byte Name="Reserved">0</Byte>
+                <UInt16 Name="Reserved">0</UInt16>
+              </TableRow>
+            </Table>
+            <Group Name="Texts">
+              <String Name="Text" Encoding="Unicode">""</String>
+              <String Name="Text" Encoding="Unicode">""</String>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

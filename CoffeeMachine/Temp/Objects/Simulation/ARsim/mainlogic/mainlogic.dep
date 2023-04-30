@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/DataObj/DataObj.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/CoffeeLib/CoffeeLib.fun
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/mainlogic/mainlogic.var

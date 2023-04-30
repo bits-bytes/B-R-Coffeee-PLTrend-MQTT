@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="C70_acpsim.Hardware.hw" LastWriteTime="11/12/2020 15:04:08" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="4PPC70_0702_20B" Type="4PPC70.0702-20B" X="100" Y="100" />
+    <Module Name="8V1010.00-2" Type="8V1010.00-2" X="325" Y="206" />
+    <Module Name="8AC120.60-1" Type="8AC120.60-1" X="339" Y="321.5" />
+    <Module Name="8AC114.60-2" Type="8AC114.60-2" X="327.8" Y="321.5" />
+    <Module Name="8V1010.00-2a" Type="8V1010.00-2" X="430" Y="206" />
+    <Module Name="8AC120.60-1a" Type="8AC120.60-1" X="444" Y="321.5" />
+    <Module Name="8AC114.60-2a" Type="8AC114.60-2" X="432.8" Y="321.5" />
+  </Modules>
+  <Links>
+    <Link From="4PPC70_0702_20B" To="8AC114.60-2" FromPort="IF1" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="334.2501" Y="349.3" />
+      <Point X="334.2501" Y="349.3" />
+      <Point X="325.2501" Y="349.3" />
+      <Point X="145.299988" Y="349.3" />
+      <Point X="145.299988" Y="207" />
+      <Point X="145.299988" Y="202" />
+      <Point X="145.299988" Y="202" />
+    </Link>
+    <Link From="8AC114.60-2" To="8AC114.60-2a" FromPort="PLK2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="439.2501" Y="349.3" />
+      <Point X="439.2501" Y="349.3" />
+      <Point X="430.2501" Y="349.3" />
+      <Point X="425" Y="349.3" />
+      <Point X="425" Y="395" />
+      <Point X="315" Y="395" />
+      <Point X="315" Y="359.1" />
+      <Point X="325.2501" Y="359.1" />
+      <Point X="334.2501" Y="359.1" />
+      <Point X="334.2501" Y="359.1" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

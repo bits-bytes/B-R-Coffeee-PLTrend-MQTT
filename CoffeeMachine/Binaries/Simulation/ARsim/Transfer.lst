@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <OperatingSystem Version="B4.93"/>
+  <Hardware Target="SG4"/>
+  <Operation Delete="visTrend.br"/>
+  <Operation Delete="visAlarm.br"/>
+  <Operation Delete="visCtrl.br"/>
+  <Operation Delete="heating.br"/>
+  <Operation Delete="brewing.br"/>
+  <Operation Delete="conveyor.br"/>
+  <Operation Delete="feeder.br"/>
+  <Operation Delete="mainlogic.br"/>
+  <Operation Delete="Visu.br"/>
+  <Operation Delete="AsArProf.br"/>
+  <Operation Delete="vccdt.br"/>
+  <Operation Delete="vccshape.br"/>
+  <Operation Delete="vccgauge.br"/>
+  <Operation Delete="vcpfar00.br"/>
+  <Operation Delete="vcclbox.br"/>
+  <Operation Delete="vcctrend.br"/>
+  <Operation Delete="vcpdsw.br"/>
+  <Operation Delete="vccline.br"/>
+  <Operation Delete="vccalarm.br"/>
+  <Operation Delete="vcdsint.br"/>
+  <Operation Delete="vccnum.br"/>
+  <Operation Delete="vcalarm.br"/>
+  <Operation Delete="visvc.br"/>
+  <Operation Delete="vctcal.br"/>
+  <Operation Delete="vcmgr.br"/>
+  <Operation Delete="vccbtn.br"/>
+  <Operation Delete="vccbar.br"/>
+  <Operation Delete="vccbmp.br"/>
+  <Operation Delete="vcrt.br"/>
+  <Operation Delete="vccstr.br"/>
+  <Operation Delete="vcfntttf.br"/>
+  <Operation Delete="vcbclass.br"/>
+  <Operation Delete="vcdsloc.br"/>
+  <Operation Delete="vcfile.br"/>
+  <Operation Delete="vccovl.br"/>
+  <Operation Delete="vcctext.br"/>
+  <Operation Delete="vcchspot.br"/>
+  <Operation Delete="vcchtml.br"/>
+  <Operation Delete="vccslider.br"/>
+  <Operation Delete="AsArSdm.br"/>
+  <Operation Delete="LoopConR.br"/>
+  <Operation Delete="CoffeeLib.br"/>
+  <Operation Delete="vcshared.br"/>
+  <Operation Delete="arialxsr.br"/>
+  <Operation Delete="ARIALBD.br"/>
+  <Operation Delete="ARIAL.br"/>
+  <Operation Delete="Visu03.br"/>
+  <Operation Delete="Visu02.br"/>
+  <Operation Delete="Visu01.br"/>
+  <Operation Delete="dataobj.br"/>
+  <Operation Delete="vcxml.br"/>
+  <Operation Delete="vccurl.br"/>
+  <Operation Delete="vcgclass.br"/>
+  <Operation Delete="Acp10sdc.br"/>
+  <Operation Delete="Acp10sim.br"/>
+  <Operation Delete="vcpdvnc.br"/>
+  <Operation Delete="Acp10_MC.br"/>
+  <Operation Delete="sys_lib.br"/>
+  <Operation Delete="brsystem.br"/>
+  <Operation Delete="Acp10man.br"/>
+  <Operation Delete="FileIO.br"/>
+  <Operation Delete="AsTime.br"/>
+  <Operation Delete="vcnet.br"/>
+  <Operation Download="asfw.br" Memory="UserROM"/>
+  <Operation Download="ashwd.br" Memory="UserROM"/>
+  <Operation Download="arconfig.br" Memory="UserROM"/>
+  <Operation Download="sysconf.br" Memory="UserROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="vcresman.br" Memory="UserROM"/>
+  <Operation Download="Acp10cfg.br" Memory="UserROM"/>
+  <Operation Download="Acp10map.br" Memory="UserROM"/>
+  <Operation Download="NcGlobal.br" Memory="UserROM"/>
+  <Operation Download="vcnet.br" Memory="UserROM"/>
+  <Operation Download="powerlnk.br" Memory="UserROM"/>
+  <Operation Download="Acp10par.br" Memory="UserROM"/>
+  <Operation Download="Runtime.br" Memory="UserROM"/>
+  <Operation Download="AsTime.br" Memory="UserROM"/>
+  <Operation Download="FileIO.br" Memory="UserROM"/>
+  <Operation Download="Acp10man.br" Memory="UserROM"/>
+  <Operation Download="brsystem.br" Memory="UserROM"/>
+  <Operation Download="sys_lib.br" Memory="UserROM"/>
+  <Operation Download="Acp10_MC.br" Memory="UserROM"/>
+  <Operation Download="vcpdvnc.br" Memory="UserROM"/>
+  <Operation Download="Acp10sim.br" Memory="UserROM"/>
+  <Operation Download="Acp10sdc.br" Memory="UserROM"/>
+  <Operation Download="Acp10sys.br" Memory="UserROM"/>
+  <Operation Download="acp_err.br" Memory="UserROM"/>
+  <Operation Download="motor_sim.br" Memory="UserROM"/>
+  <Operation Download="motor_offi.br" Memory="UserROM"/>
+  <Operation Download="feed_ini.br" Memory="UserROM"/>
+  <Operation Download="conv_ini.br" Memory="UserROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="Visapi.br" Memory="UserROM"/>
+  <Operation Download="vcgclass.br" Memory="UserROM"/>
+  <Operation Download="vccurl.br" Memory="UserROM"/>
+  <Operation Download="vcxml.br" Memory="UserROM"/>
+  <Operation Download="dataobj.br" Memory="UserROM"/>
+  <Operation Download="Visu01.br" Memory="UserROM"/>
+  <Operation Download="Visu02.br" Memory="UserROM"/>
+  <Operation Download="Visu03.br" Memory="UserROM"/>
+  <Operation Download="ARIAL.br" Memory="UserROM"/>
+  <Operation Download="ARIALBD.br" Memory="UserROM"/>
+  <Operation Download="arialxsr.br" Memory="UserROM"/>
+  <Operation Download="vcshared.br" Memory="UserROM"/>
+  <Operation Download="CoffeeLib.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
+  <Operation Download="LoopConR.br" Memory="UserROM"/>
+  <Operation Download="AsArSdm.br" Memory="UserROM"/>
+  <Operation Download="vccslider.br" Memory="UserROM"/>
+  <Operation Download="vcchtml.br" Memory="UserROM"/>
+  <Operation Download="vcchspot.br" Memory="UserROM"/>
+  <Operation Download="vcctext.br" Memory="UserROM"/>
+  <Operation Download="vccovl.br" Memory="UserROM"/>
+  <Operation Download="vcfile.br" Memory="UserROM"/>
+  <Operation Download="vcdsloc.br" Memory="UserROM"/>
+  <Operation Download="vcbclass.br" Memory="UserROM"/>
+  <Operation Download="vcfntttf.br" Memory="UserROM"/>
+  <Operation Download="vccstr.br" Memory="UserROM"/>
+  <Operation Download="vcrt.br" Memory="UserROM"/>
+  <Operation Download="vccbmp.br" Memory="UserROM"/>
+  <Operation Download="vccbar.br" Memory="UserROM"/>
+  <Operation Download="vccbtn.br" Memory="UserROM"/>
+  <Operation Download="vcmgr.br" Memory="UserROM"/>
+  <Operation Download="vctcal.br" Memory="UserROM"/>
+  <Operation Download="visvc.br" Memory="UserROM"/>
+  <Operation Download="vcalarm.br" Memory="UserROM"/>
+  <Operation Download="vccnum.br" Memory="UserROM"/>
+  <Operation Download="vcdsint.br" Memory="UserROM"/>
+  <Operation Download="vccalarm.br" Memory="UserROM"/>
+  <Operation Download="vccline.br" Memory="UserROM"/>
+  <Operation Download="vcpdsw.br" Memory="UserROM"/>
+  <Operation Download="vcctrend.br" Memory="UserROM"/>
+  <Operation Download="vcclbox.br" Memory="UserROM"/>
+  <Operation Download="vcpfar00.br" Memory="UserROM"/>
+  <Operation Download="vccgauge.br" Memory="UserROM"/>
+  <Operation Download="vccshape.br" Memory="UserROM"/>
+  <Operation Download="vccdt.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="Convert.br" Memory="UserROM"/>
+  <Operation Download="operator.br" Memory="UserROM"/>
+  <Operation Download="AsArProf.br" Memory="UserROM"/>
+  <Operation Download="ashwac.br" Memory="UserROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="TCData.br" Memory="SystemROM"/>
+  <Operation Download="udbdef.br" Memory="UserROM"/>
+  <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="regular.br" Memory="UserROM"/>
+  <Operation Download="cappu.br" Memory="UserROM"/>
+  <Operation Download="espres.br" Memory="UserROM"/>
+  <Operation Download="Visu.br" Memory="UserROM"/>
+  <Operation Download="mainlogic.br" Memory="UserROM"/>
+  <Operation Download="feeder.br" Memory="UserROM"/>
+  <Operation Download="conveyor.br" Memory="UserROM"/>
+  <Operation Download="brewing.br" Memory="UserROM"/>
+  <Operation Download="heating.br" Memory="UserROM"/>
+  <Operation Download="visCtrl.br" Memory="UserROM"/>
+  <Operation Download="visAlarm.br" Memory="UserROM"/>
+  <Operation Download="visTrend.br" Memory="UserROM"/>
+</Transfer>

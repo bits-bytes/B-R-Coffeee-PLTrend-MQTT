@@ -1,0 +1,6 @@
+{
+  global:
+    MoneyChanger;
+  local:
+    *;
+ };

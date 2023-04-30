@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.12.1.87 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="4PPC70_0702_20B" Type="4PPC70.0702-20B" Version="1.5.4.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="CoffeeMachine_C70_acpsim1" />
+    <Parameter ID="TimerDeviceType" Value="EPLX2X" />
+    <Parameter ID="TimerDevice" Value="4PPC70_0702_20B.IF1" />
+    <Parameter ID="TaskClassIdleTime" Value="2000" />
+    <Parameter ID="Cyclic1Tolerance" Value="0" />
+    <Parameter ID="VcObjectName" Value="VisuW" />
+    <Parameter ID="KeyMappingFile" Value="VC\4PPC70_0702_20B.dis" />
+  </Module>
+  <Module Name="8AC114.60-2" Type="8AC114.60-2" Version="1.0.0.8">
+    <Connection Connector="SS" TargetModule="8V1010.00-2" TargetConnector="SS1" />
+    <Connection Connector="PLK1" TargetModule="4PPC70_0702_20B" TargetConnector="IF1" NodeNumber="1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Connection Connector="PLK2" TargetModule="8AC114.60-2a" TargetConnector="PLK1" NodeNumber="1">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+  </Module>
+  <Module Name="8AC114.60-2a" Type="8AC114.60-2" Version="1.0.0.8">
+    <Connection Connector="SS" TargetModule="8V1010.00-2a" TargetConnector="SS1" />
+    <Connection Connector="PLK1" TargetModule="8AC114.60-2" TargetConnector="PLK2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+  </Module>
+  <Module Name="8AC120.60-1" Type="8AC120.60-1" Version="2.2.0.0">
+    <Connection Connector="SS" TargetModule="8V1010.00-2" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8AC120.60-1a" Type="8AC120.60-1" Version="2.2.0.0">
+    <Connection Connector="SS" TargetModule="8V1010.00-2a" TargetConnector="SS2" />
+  </Module>
+  <Module Name="8V1010.00-2" Type="8V1010.00-2" Version="2.2.0.0">
+    <Parameter ID="MotionTP" Value="Acp10Arnc0" />
+    <Parameter ID="Simulate" Value="standard" />
+    <Parameter ID="PoweredBy" Value="DC" />
+  </Module>
+  <Module Name="8V1010.00-2a" Type="8V1010.00-2" Version="2.2.0.0">
+    <Parameter ID="MotionTP" Value="Acp10Arnc0" />
+    <Parameter ID="Simulate" Value="standard" />
+    <Parameter ID="PoweredBy" Value="DC" />
+  </Module>
+</Hardware>

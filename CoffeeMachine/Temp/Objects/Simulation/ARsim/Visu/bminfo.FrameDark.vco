@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="FrameDark" ClsId="0x306" Version="1" TargetIndex="58" Type="GFX" RefString="Source[local].Bitmap[FrameDark]">
+        <UInt16 Name="Width">144</UInt16>
+        <UInt16 Name="Height">74</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAJAAAABKCAYAAABU493xAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMoSURBVHhe7d2/TttQFIBxHqmP0BkCdoiQRRSRRgGkLsgjqjJ0gJmOTOQRInZEx27JkB0egQWp4+055txiEwcMRyzJ95OOqlybLPnkP4lUbwCfamtrK9/c3Pwt/wZmrWYmn/uFzBdL4X3kDX6+eMP/k6Zp2N3dZVZk6j7j8khEE8uiGfmjWfkN9vb2wsHBQTg8PAzHx8fMik6/3w9ZloXt7e1KQDoS0UOr1UotkeV0x/hHnU4nDIfDcHp6+ufy8vLXZDL5YbthRd3e3p6Mx+PzPM+vkyR5LEekI318s10XyQ7FkUcL7PV6Qd7kbjqdDm0z1lC32716EdCDzOJ1kWwsrnk0nsFgEEaj0Y1twpqTs9BJOSKZmW16FjfGI48tA4V2u31WCqh6KpOFXBf1mkcvpjhtoY40cl8K6PnOTF4U3/PEC2ZbBir29/e/x4B0bPnp9KW36nr00bstWwYq5vP513JAMl+LDfpCv+fRgLhVx2v0LiwGZEtPAcUvCW0JqJVl2bQ2II2HgPAWOVPNFwLS30MICE0cHR393dnZCUmSEBDeLwakY0sEhOYICC4akP7cRUD4ELlbLwLSsSUCQnMEBBcCggsBwYWA4EJAcNGAWq1W0LElAkJzBAQXAoKLBsSv8fgwAoILAcGFgOBCQHAhILgQEFwICC4EBBcCggsBwYWA4EJAcCEguBAQXAgILhIQ/zsHPo6A4EJAcCEguBAQXAgILgQEFwKCCwHBhYDgQkBwISC4EBBcCAguBASX2oD0fx0nIDRRG5C+ICA0Ufu4J30hZREQ3rT0gXPxkZe2BNRa+shLHrqLJmI8lYB47Deaqg1I6UKn0+E0hqWkkfsYjxx0Jrb8JG7o9Xohz/M7WwYK7Xb7LDaiY8tVukGfgTAYDMJoNLqxZaBy6pKZ2XKVbtAdNCKORFDdbveqFI6euh5sU73ybZpeE8ULa+7O1sd4PD6Xg8d1kiSP5Xh0bJfXyY7FkSiO3uLr90Txy0ZmNaff74csy4ozUPnz13nzyFPn5ZvESdM06A+wzGpM3WdcnoU7rveSNyi+J2LWambyuV9YAsBn2Nj4B2DSnpVBg1+YAAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

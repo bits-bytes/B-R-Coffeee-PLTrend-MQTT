@@ -1,0 +1,12 @@
+VAR
+	zz0000FCT_10_1_MUX_Output:STRING[255]:='';
+	zz0000FCT_10_1_GE_Output:BOOL:=FALSE;
+	zz0000FB_10_1_MoneyChanger:MoneyChanger:=(0);
+	zz0000FCT_10_1_ADR_Output:UDINT:=0;
+	zz0000FB_10_1_DatObjInfo:DatObjInfo:=(0);
+	zz0000FCT_10_55_1_SUB_Output:SINT:=0;
+	zz0000FCT_10_55_1_NE_Output:BOOL:=FALSE;
+	zz0000FCT_10_2_ADR_Output:UDINT:=0;
+	zz0000FCT_10_1_SIZEOF_Output:UDINT:=0;
+	zz0000FB_10_1_DatObjRead:DatObjRead:=(0);
+END_VAR

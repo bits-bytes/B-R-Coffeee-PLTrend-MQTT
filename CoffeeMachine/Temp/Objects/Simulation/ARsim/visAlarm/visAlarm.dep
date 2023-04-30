@@ -1,0 +1,5 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsArSdm/AsArSdm.fun
+$(AS_PROJECT_PATH)/Logical/Visualisation/visAlarm/visAlarm.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AsArSdm/AsArSdm.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\"
+  TempDirectory="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\"
+  AutomationStudioVersion="4.12.2.93"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Simulation"
+  CreateAnsiCDeclarations="false" />

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="BusyNeedle" ClsId="0x306" Version="1" TargetIndex="121" Type="GFX" RefString="Source[local].Bitmap[BusyNeedle]">
+        <UInt16 Name="Width">11</UInt16>
+        <UInt16 Name="Height">100</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAAsAAABkCAYAAABQDsqpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGGSURBVFhH7cxHqiJAFIVhV9bLeXNFjJizGEAFKRBFFFFEMWDAgAEDZtxF7+J0XXBqn9kb1Q8HistHWX639/v95/P8f6/X6+f5fP59PB4/n9P3NFT3+x232019Tt8TdL1ecblcOBZ0Pp9xOp04FnQ8HnE4HDgWtN/vsdlsON7tdmq73WK9XnMsP2qIxWLB8Wq1UsvlEvP5nGNBephMJhzPZjM1nU4xHo85FqSHwWDA8Wg0UsPhEP1+n2NBvV4P3W6XYw2Vhuh0OhwLarfbaLVaHGuoNESz2eRYUKPRQL1e51hDpSGq1SrHtVpNaYhKpcKx/KghlO5z+p4gHcrlMseC9FAqlTgWVCwWUSgUOBakh3w+z7GgXC6HbDbLsaBMJoN0Os2xoFQqhXg8znEymVSJRAKxWIxjQdFoFKFQiONIJKLC4TCCwSDHggKBAPx+P8eCfD4fvF4vx4I8Hg+cTifHbrdbuVwuOBwOjgXZ7XbYbDaONVQawmq1cmwymUwmk8lkMv1KFss/xNYj6J7WCJMAAAAASUVORK5CYII=</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

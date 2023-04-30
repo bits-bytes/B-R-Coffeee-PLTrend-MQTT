@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Object Name="BitmapGroup" ClsId="0x0" Version="0" TargetIndex="8" Type="REF" RefString="Source[local].BitmapGroup[EuroCoins]" />
+  <Folder Name="Language">
+    <Folder Name="en" TargetIndex="0">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="EuroCoins" ClsId="0x308" Version="1" TargetIndex="8" Type="BMPG" RefString="Source[local].BitmapGroup[EuroCoins_en]">
+            <UInt32 Name="Count">8</UInt32>
+            <Group Name="euro2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[euro2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="euro1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[euro1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="cent50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="cent20">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent20]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="cent10">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent10]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="cent5">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent5]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="cent2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="cent1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="de" TargetIndex="1">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="EuroCoins" ClsId="0x308" Version="1" TargetIndex="8" Type="BMPG" RefString="Source[local].BitmapGroup[EuroCoins_de]">
+            <UInt32 Name="Count">8</UInt32>
+            <Group Name="euro2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[euro2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="euro1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[euro1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="cent50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="cent20">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent20]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="cent10">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent10]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="cent5">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent5]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="cent2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="cent1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder Name="zh-CN" TargetIndex="2">
+      <Folder Name="BitmapGroups">
+        <Folder Name="POBJ">
+          <Object Name="EuroCoins" ClsId="0x308" Version="1" TargetIndex="8" Type="BMPG" RefString="Source[local].BitmapGroup[EuroCoins_zh-CN]">
+            <UInt32 Name="Count">8</UInt32>
+            <Group Name="euro2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[euro2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">0</UInt16>
+            </Group>
+            <Group Name="euro1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[euro1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">1</UInt16>
+            </Group>
+            <Group Name="cent50">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent50]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">2</UInt16>
+            </Group>
+            <Group Name="cent20">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent20]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">3</UInt16>
+            </Group>
+            <Group Name="cent10">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent10]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">4</UInt16>
+            </Group>
+            <Group Name="cent5">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent5]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">5</UInt16>
+            </Group>
+            <Group Name="cent2">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent2]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">6</UInt16>
+            </Group>
+            <Group Name="cent1">
+              <Reference Name="Bitmap" Type="GFX">Source[local].Bitmap[cent1]</Reference>
+              <UInt16 Name="Reserved">0</UInt16>
+              <UInt16 Name="Value">7</UInt16>
+            </Group>
+          </Object>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

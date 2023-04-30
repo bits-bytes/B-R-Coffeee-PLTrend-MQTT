@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="DPV">
+    <Folder Name="Drivers">
+      <Folder Name="POBJ">
+        <Object Name="DataSource" ClsId="0x200" Version="1" Type="DS" RefString="Source[global].DataSource[DataSource]">
+          <Reference Name="DriverID" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <Reference Name="TextGroup" Type="TG">None</Reference>
+          <UInt32 Name="PVCount">90</UInt32>
+          <UInt32 Name="ImageSize">875</UInt32>
+          <Table Name="Variables" Cols="5">
+            <TableHeader>
+              <Column Name="PVID" />
+              <Column Name="PVType" />
+              <Column Name="PVOffset" />
+              <Column Name="PVDim" />
+              <Column Name="PVName" />
+            </TableHeader>
+            <Group Name="gHeating.status.actTemp">
+              <UInt16 Name="ID">0</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">0</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">0</Int32>
+            </Group>
+            <Group Name="visCtrl:systemHMI.cmd.changeDateTime">
+              <UInt16 Name="ID">1</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">4</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">24</Int32>
+            </Group>
+            <Group Name="visCtrl:systemHMI.par.DateTimeActual.day">
+              <UInt16 Name="ID">2</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">5</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">61</Int32>
+            </Group>
+            <Group Name="visCtrl:systemHMI.par.DateTimeActual.month">
+              <UInt16 Name="ID">3</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">6</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">102</Int32>
+            </Group>
+            <Group Name="visCtrl:systemHMI.par.DateTimeActual.year">
+              <UInt16 Name="ID">4</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">7</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">145</Int32>
+            </Group>
+            <Group Name="visCtrl:systemHMI.par.DateTimeActual.minute">
+              <UInt16 Name="ID">5</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">9</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">187</Int32>
+            </Group>
+            <Group Name="visCtrl:systemHMI.par.DateTimeActual.second">
+              <UInt16 Name="ID">6</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">10</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">231</Int32>
+            </Group>
+            <Group Name="visCtrl:systemHMI.par.DateTimeActual.hour">
+              <UInt16 Name="ID">7</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">11</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">275</Int32>
+            </Group>
+            <Group Name="visCtrl:showInfo">
+              <UInt16 Name="ID">8</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">12</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">317</Int32>
+            </Group>
+            <Group Name="visCtrl:openLanguage">
+              <UInt16 Name="ID">9</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">14</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">334</Int32>
+            </Group>
+            <Group Name="visCtrl:unitMetric">
+              <UInt16 Name="ID">10</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">16</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">355</Int32>
+            </Group>
+            <Group Name="visCtrl:showBusyLayer">
+              <UInt16 Name="ID">11</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">17</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">374</Int32>
+            </Group>
+            <Group Name="visCtrl:unitMetricLocked">
+              <UInt16 Name="ID">12</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">19</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">396</Int32>
+            </Group>
+            <Group Name="visCtrl:cupPosition">
+              <UInt16 Name="ID">13</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">21</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">421</Int32>
+            </Group>
+            <Group Name="visCtrl:statusProgressStep">
+              <UInt16 Name="ID">14</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">23</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">441</Int32>
+            </Group>
+            <Group Name="visCtrl:unitImperialLocked">
+              <UInt16 Name="ID">15</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">25</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">468</Int32>
+            </Group>
+            <Group Name="visCtrl:showBusyValue">
+              <UInt16 Name="ID">16</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">27</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">495</Int32>
+            </Group>
+            <Group Name="visCtrl:setPage">
+              <UInt16 Name="ID">17</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">29</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">517</Int32>
+            </Group>
+            <Group Name="visCtrl:cmdStartCoffee">
+              <UInt16 Name="ID">18</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">31</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">533</Int32>
+            </Group>
+            <Group Name="visCtrl:setPageOld">
+              <UInt16 Name="ID">19</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">32</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">556</Int32>
+            </Group>
+            <Group Name="visCtrl:waterLevel">
+              <UInt16 Name="ID">20</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">34</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">575</Int32>
+            </Group>
+            <Group Name="visCtrl:statusInsertCoin">
+              <UInt16 Name="ID">21</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">36</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">594</Int32>
+            </Group>
+            <Group Name="visCtrl:diagIsLoading">
+              <UInt16 Name="ID">22</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">38</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">619</Int32>
+            </Group>
+            <Group Name="visCtrl:urlSDM">
+              <UInt16 Name="ID">23</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">39</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">641</Int32>
+            </Group>
+            <Group Name="visCtrl:unitImperial">
+              <UInt16 Name="ID">24</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">168</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">656</Int32>
+            </Group>
+            <Group Name="visCtrl:unitSystem">
+              <UInt16 Name="ID">25</UInt16>
+              <UInt16 Name="PVType">2</UInt16>
+              <UInt32 Name="PVOffset">169</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-32768</Double>
+              <Double Name="PVMaxVal">32767</Double>
+              <Int32 Name="Offset">677</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.Cursor2Position">
+              <UInt16 Name="ID">26</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">171</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">696</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.Cursor2Valid">
+              <UInt16 Name="ID">27</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">175</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">734</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.Cursor1Position">
+              <UInt16 Name="ID">28</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">177</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">769</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.Cursor1Valid">
+              <UInt16 Name="ID">29</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">181</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">807</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.TrendCurve[0].Cursor2ValueDatapoint">
+              <UInt16 Name="ID">30</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">183</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">842</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.TrendCurve[0].Cursor1ValueDatapoint">
+              <UInt16 Name="ID">31</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">187</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">900</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.TrendCurve[0].StatusDatapoint">
+              <UInt16 Name="ID">32</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">191</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">958</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.TrendTimeScale.ModeDatapoint">
+              <UInt16 Name="ID">33</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">193</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1010</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.TrendTimeScale.Cursor1TimeDatapoint">
+              <UInt16 Name="ID">34</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">194</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">1061</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.TrendTimeScale.StatusDatapoint">
+              <UInt16 Name="ID">35</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">198</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1119</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.TrendTimeScale.Cursor2TimeDatapoint">
+              <UInt16 Name="ID">36</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">199</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">1172</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.TrendTimeScale.ZoomDatapoint">
+              <UInt16 Name="ID">37</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">203</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">1230</Int32>
+            </Group>
+            <Group Name="visTrend:TrendControl.TrendTimeScale.ScrollDatapoint">
+              <UInt16 Name="ID">38</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">207</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">1281</Int32>
+            </Group>
+            <Group Name="visTrend:viewBuffer">
+              <UInt16 Name="ID">39</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">211</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1334</Int32>
+            </Group>
+            <Group Name="visTrend:scrollOnOff">
+              <UInt16 Name="ID">40</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">212</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1354</Int32>
+            </Group>
+            <Group Name="visTrend:newTimeRange">
+              <UInt16 Name="ID">41</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">213</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1375</Int32>
+            </Group>
+            <Group Name="visTrend:displayTimeRange">
+              <UInt16 Name="ID">42</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">214</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1397</Int32>
+            </Group>
+            <Group Name="visTrend:statusTimeRange">
+              <UInt16 Name="ID">43</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">216</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1423</Int32>
+            </Group>
+            <Group Name="visAlarm:alarmAckCoffee">
+              <UInt16 Name="ID">44</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">218</UInt32>
+              <UInt32 Name="PVDim">20</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1448</Int32>
+            </Group>
+            <Group Name="visAlarm:alarmCoffee">
+              <UInt16 Name="ID">45</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">238</UInt32>
+              <UInt32 Name="PVDim">20</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1472</Int32>
+            </Group>
+            <Group Name="axConveyor.monitor.s">
+              <UInt16 Name="ID">46</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">258</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">1493</Int32>
+            </Group>
+            <Group Name="gConveyor.status.axisErrorNumber">
+              <UInt16 Name="ID">47</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">262</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1514</Int32>
+            </Group>
+            <Group Name="gConveyor.status.axisErrorText">
+              <UInt16 Name="ID">48</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">264</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1547</Int32>
+            </Group>
+            <Group Name="gFeeder.status.axisErrorNumber">
+              <UInt16 Name="ID">49</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">520</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1578</Int32>
+            </Group>
+            <Group Name="gFeeder.status.axisErrorText">
+              <UInt16 Name="ID">50</UInt16>
+              <UInt16 Name="PVType">8</UInt16>
+              <UInt32 Name="PVOffset">522</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">0</Double>
+              <Int32 Name="Offset">1609</Int32>
+            </Group>
+            <Group Name="axFeeder.monitor.s">
+              <UInt16 Name="ID">51</UInt16>
+              <UInt16 Name="PVType">4</UInt16>
+              <UInt32 Name="PVOffset">778</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-2147483648</Double>
+              <Double Name="PVMaxVal">2147483647</Double>
+              <Int32 Name="Offset">1638</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.switchOnOff">
+              <UInt16 Name="ID">52</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">782</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">1</Double>
+              <Int32 Name="Offset">1657</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.cent50hidden">
+              <UInt16 Name="ID">53</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">783</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1684</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.euro2hidden">
+              <UInt16 Name="ID">54</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">785</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1716</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.cent5hidden">
+              <UInt16 Name="ID">55</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">787</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1747</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.messageIndex">
+              <UInt16 Name="ID">56</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">789</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">1778</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.newLanguage">
+              <UInt16 Name="ID">57</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">790</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1810</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.cent1hidden">
+              <UInt16 Name="ID">58</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">792</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1841</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.euro1hidden">
+              <UInt16 Name="ID">59</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">794</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1872</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.cent10hidden">
+              <UInt16 Name="ID">60</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">796</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1903</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.newPage">
+              <UInt16 Name="ID">61</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">798</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1935</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.cent20hidden">
+              <UInt16 Name="ID">62</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">800</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1962</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.startButtonColor">
+              <UInt16 Name="ID">63</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">802</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">1994</Int32>
+            </Group>
+            <Group Name="gMainLogic.cmd.vis.cent2hidden">
+              <UInt16 Name="ID">64</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">804</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">2030</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.curPage">
+              <UInt16 Name="ID">65</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">806</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">2061</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.progressStep">
+              <UInt16 Name="ID">66</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">808</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2087</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.curLanguage">
+              <UInt16 Name="ID">67</UInt16>
+              <UInt16 Name="PVType">3</UInt16>
+              <UInt32 Name="PVOffset">809</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">65535</Double>
+              <Int32 Name="Offset">2118</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.startProgressStep">
+              <UInt16 Name="ID">68</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">811</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2148</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.money.cent50">
+              <UInt16 Name="ID">69</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">812</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2184</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.money.cent1">
+              <UInt16 Name="ID">70</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">813</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2215</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.money.euro1">
+              <UInt16 Name="ID">71</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">814</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">4294967295</Double>
+              <Int32 Name="Offset">2245</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.money.cent2">
+              <UInt16 Name="ID">72</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">818</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2275</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.money.cent5">
+              <UInt16 Name="ID">73</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">819</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2305</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.money.changedMoney">
+              <UInt16 Name="ID">74</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">820</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2335</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.money.euro2">
+              <UInt16 Name="ID">75</UInt16>
+              <UInt16 Name="PVType">5</UInt16>
+              <UInt32 Name="PVOffset">824</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">4294967295</Double>
+              <Int32 Name="Offset">2372</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.money.cent10">
+              <UInt16 Name="ID">76</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">828</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2402</Int32>
+            </Group>
+            <Group Name="gMainLogic.status.money.cent20">
+              <UInt16 Name="ID">77</UInt16>
+              <UInt16 Name="PVType">1</UInt16>
+              <UInt32 Name="PVOffset">829</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">0</Double>
+              <Double Name="PVMaxVal">255</Double>
+              <Int32 Name="Offset">2433</Int32>
+            </Group>
+            <Group Name="gMainLogic.par.givenMoney">
+              <UInt16 Name="ID">78</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">830</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2464</Int32>
+            </Group>
+            <Group Name="gMainLogic.par.coffeeType">
+              <UInt16 Name="ID">79</UInt16>
+              <UInt16 Name="PVType">0</UInt16>
+              <UInt32 Name="PVOffset">834</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-128</Double>
+              <Double Name="PVMaxVal">127</Double>
+              <Int32 Name="Offset">2490</Int32>
+            </Group>
+            <Group Name="gMainLogic.par.recipe.sugar">
+              <UInt16 Name="ID">80</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">835</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2516</Int32>
+            </Group>
+            <Group Name="gMainLogic.par.recipe.milk">
+              <UInt16 Name="ID">81</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">839</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2544</Int32>
+            </Group>
+            <Group Name="gMainLogic.par.recipe.water">
+              <UInt16 Name="ID">82</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">843</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2571</Int32>
+            </Group>
+            <Group Name="gMainLogic.par.recipe.setTemp">
+              <UInt16 Name="ID">83</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">847</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2599</Int32>
+            </Group>
+            <Group Name="gMainLogic.par.recipe.coffee">
+              <UInt16 Name="ID">84</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">851</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2629</Int32>
+            </Group>
+            <Group Name="gMainLogic.par.recipe.price">
+              <UInt16 Name="ID">85</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">855</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2658</Int32>
+            </Group>
+            <Group Name="gActFeederVelocity">
+              <UInt16 Name="ID">86</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">859</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2686</Int32>
+            </Group>
+            <Group Name="gActConveyorVelocity">
+              <UInt16 Name="ID">87</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">863</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2705</Int32>
+            </Group>
+            <Group Name="gActFeederPosition">
+              <UInt16 Name="ID">88</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">867</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2726</Int32>
+            </Group>
+            <Group Name="gActConveyorPosition">
+              <UInt16 Name="ID">89</UInt16>
+              <UInt16 Name="PVType">6</UInt16>
+              <UInt32 Name="PVOffset">871</UInt32>
+              <UInt32 Name="PVDim">1</UInt32>
+              <Double Name="PVMinVal">-3.4028234663852886E+38</Double>
+              <Double Name="PVMaxVal">3.4028234663852886E+38</Double>
+              <Int32 Name="Offset">2745</Int32>
+            </Group>
+          </Table>
+          <Binary Name="Name" Encoding="Base64">Z0hlYXRpbmcuc3RhdHVzLmFjdFRlbXAAdmlzQ3RybDpzeXN0ZW1ITUkuY21kLmNoYW5nZURhdGVUaW1lAHZpc0N0cmw6c3lzdGVtSE1JLnBhci5EYXRlVGltZUFjdHVhbC5kYXkAdmlzQ3RybDpzeXN0ZW1ITUkucGFyLkRhdGVUaW1lQWN0dWFsLm1vbnRoAHZpc0N0cmw6c3lzdGVtSE1JLnBhci5EYXRlVGltZUFjdHVhbC55ZWFyAHZpc0N0cmw6c3lzdGVtSE1JLnBhci5EYXRlVGltZUFjdHVhbC5taW51dGUAdmlzQ3RybDpzeXN0ZW1ITUkucGFyLkRhdGVUaW1lQWN0dWFsLnNlY29uZAB2aXNDdHJsOnN5c3RlbUhNSS5wYXIuRGF0ZVRpbWVBY3R1YWwuaG91cgB2aXNDdHJsOnNob3dJbmZvAHZpc0N0cmw6b3Blbkxhbmd1YWdlAHZpc0N0cmw6dW5pdE1ldHJpYwB2aXNDdHJsOnNob3dCdXN5TGF5ZXIAdmlzQ3RybDp1bml0TWV0cmljTG9ja2VkAHZpc0N0cmw6Y3VwUG9zaXRpb24AdmlzQ3RybDpzdGF0dXNQcm9ncmVzc1N0ZXAAdmlzQ3RybDp1bml0SW1wZXJpYWxMb2NrZWQAdmlzQ3RybDpzaG93QnVzeVZhbHVlAHZpc0N0cmw6c2V0UGFnZQB2aXNDdHJsOmNtZFN0YXJ0Q29mZmVlAHZpc0N0cmw6c2V0UGFnZU9sZAB2aXNDdHJsOndhdGVyTGV2ZWwAdmlzQ3RybDpzdGF0dXNJbnNlcnRDb2luAHZpc0N0cmw6ZGlhZ0lzTG9hZGluZwB2aXNDdHJsOnVybFNETQB2aXNDdHJsOnVuaXRJbXBlcmlhbAB2aXNDdHJsOnVuaXRTeXN0ZW0AdmlzVHJlbmQ6VHJlbmRDb250cm9sLkN1cnNvcjJQb3NpdGlvbgB2aXNUcmVuZDpUcmVuZENvbnRyb2wuQ3Vyc29yMlZhbGlkAHZpc1RyZW5kOlRyZW5kQ29udHJvbC5DdXJzb3IxUG9zaXRpb24AdmlzVHJlbmQ6VHJlbmRDb250cm9sLkN1cnNvcjFWYWxpZAB2aXNUcmVuZDpUcmVuZENvbnRyb2wuVHJlbmRDdXJ2ZVswXS5DdXJzb3IyVmFsdWVEYXRhcG9pbnQAdmlzVHJlbmQ6VHJlbmRDb250cm9sLlRyZW5kQ3VydmVbMF0uQ3Vyc29yMVZhbHVlRGF0YXBvaW50AHZpc1RyZW5kOlRyZW5kQ29udHJvbC5UcmVuZEN1cnZlWzBdLlN0YXR1c0RhdGFwb2ludAB2aXNUcmVuZDpUcmVuZENvbnRyb2wuVHJlbmRUaW1lU2NhbGUuTW9kZURhdGFwb2ludAB2aXNUcmVuZDpUcmVuZENvbnRyb2wuVHJlbmRUaW1lU2NhbGUuQ3Vyc29yMVRpbWVEYXRhcG9pbnQAdmlzVHJlbmQ6VHJlbmRDb250cm9sLlRyZW5kVGltZVNjYWxlLlN0YXR1c0RhdGFwb2ludAB2aXNUcmVuZDpUcmVuZENvbnRyb2wuVHJlbmRUaW1lU2NhbGUuQ3Vyc29yMlRpbWVEYXRhcG9pbnQAdmlzVHJlbmQ6VHJlbmRDb250cm9sLlRyZW5kVGltZVNjYWxlLlpvb21EYXRhcG9pbnQAdmlzVHJlbmQ6VHJlbmRDb250cm9sLlRyZW5kVGltZVNjYWxlLlNjcm9sbERhdGFwb2ludAB2aXNUcmVuZDp2aWV3QnVmZmVyAHZpc1RyZW5kOnNjcm9sbE9uT2ZmAHZpc1RyZW5kOm5ld1RpbWVSYW5nZQB2aXNUcmVuZDpkaXNwbGF5VGltZVJhbmdlAHZpc1RyZW5kOnN0YXR1c1RpbWVSYW5nZQB2aXNBbGFybTphbGFybUFja0NvZmZlZQB2aXNBbGFybTphbGFybUNvZmZlZQBheENvbnZleW9yLm1vbml0b3IucwBnQ29udmV5b3Iuc3RhdHVzLmF4aXNFcnJvck51bWJlcgBnQ29udmV5b3Iuc3RhdHVzLmF4aXNFcnJvclRleHQAZ0ZlZWRlci5zdGF0dXMuYXhpc0Vycm9yTnVtYmVyAGdGZWVkZXIuc3RhdHVzLmF4aXNFcnJvclRleHQAYXhGZWVkZXIubW9uaXRvci5zAGdNYWluTG9naWMuY21kLnN3aXRjaE9uT2ZmAGdNYWluTG9naWMuY21kLnZpcy5jZW50NTBoaWRkZW4AZ01haW5Mb2dpYy5jbWQudmlzLmV1cm8yaGlkZGVuAGdNYWluTG9naWMuY21kLnZpcy5jZW50NWhpZGRlbgBnTWFpbkxvZ2ljLmNtZC52aXMubWVzc2FnZUluZGV4AGdNYWluTG9naWMuY21kLnZpcy5uZXdMYW5ndWFnZQBnTWFpbkxvZ2ljLmNtZC52aXMuY2VudDFoaWRkZW4AZ01haW5Mb2dpYy5jbWQudmlzLmV1cm8xaGlkZGVuAGdNYWluTG9naWMuY21kLnZpcy5jZW50MTBoaWRkZW4AZ01haW5Mb2dpYy5jbWQudmlzLm5ld1BhZ2UAZ01haW5Mb2dpYy5jbWQudmlzLmNlbnQyMGhpZGRlbgBnTWFpbkxvZ2ljLmNtZC52aXMuc3RhcnRCdXR0b25Db2xvcgBnTWFpbkxvZ2ljLmNtZC52aXMuY2VudDJoaWRkZW4AZ01haW5Mb2dpYy5zdGF0dXMuY3VyUGFnZQBnTWFpbkxvZ2ljLnN0YXR1cy5wcm9ncmVzc1N0ZXAAZ01haW5Mb2dpYy5zdGF0dXMuY3VyTGFuZ3VhZ2UAZ01haW5Mb2dpYy5zdGF0dXMuc3RhcnRQcm9ncmVzc1N0ZXAAZ01haW5Mb2dpYy5zdGF0dXMubW9uZXkuY2VudDUwAGdNYWluTG9naWMuc3RhdHVzLm1vbmV5LmNlbnQxAGdNYWluTG9naWMuc3RhdHVzLm1vbmV5LmV1cm8xAGdNYWluTG9naWMuc3RhdHVzLm1vbmV5LmNlbnQyAGdNYWluTG9naWMuc3RhdHVzLm1vbmV5LmNlbnQ1AGdNYWluTG9naWMuc3RhdHVzLm1vbmV5LmNoYW5nZWRNb25leQBnTWFpbkxvZ2ljLnN0YXR1cy5tb25leS5ldXJvMgBnTWFpbkxvZ2ljLnN0YXR1cy5tb25leS5jZW50MTAAZ01haW5Mb2dpYy5zdGF0dXMubW9uZXkuY2VudDIwAGdNYWluTG9naWMucGFyLmdpdmVuTW9uZXkAZ01haW5Mb2dpYy5wYXIuY29mZmVlVHlwZQBnTWFpbkxvZ2ljLnBhci5yZWNpcGUuc3VnYXIAZ01haW5Mb2dpYy5wYXIucmVjaXBlLm1pbGsAZ01haW5Mb2dpYy5wYXIucmVjaXBlLndhdGVyAGdNYWluTG9naWMucGFyLnJlY2lwZS5zZXRUZW1wAGdNYWluTG9naWMucGFyLnJlY2lwZS5jb2ZmZWUAZ01haW5Mb2dpYy5wYXIucmVjaXBlLnByaWNlAGdBY3RGZWVkZXJWZWxvY2l0eQBnQWN0Q29udmV5b3JWZWxvY2l0eQBnQWN0RmVlZGVyUG9zaXRpb24AZ0FjdENvbnZleW9yUG9zaXRpb24A</Binary>
+        </Object>
+      </Folder>
+    </Folder>
+  </Folder>
+</Intermediate>

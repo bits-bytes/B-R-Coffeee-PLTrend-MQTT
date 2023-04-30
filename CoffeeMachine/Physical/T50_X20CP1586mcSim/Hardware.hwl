@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="T50_X20CP1586.Hardware.hw" LastWriteTime="11/12/2020 11:06:33" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP1586" Type="X20CP1586" X="425" Y="205" />
+    <Module Name="X20BM11" Type="X20BM11" X="575" Y="205" />
+    <Module Name="X20DI2372" Type="X20DI2372" X="575" Y="205" />
+    <Module Name="X20TB12a" Type="X20TB12" X="575" Y="232" />
+    <Module Name="X20BM11a" Type="X20BM11" X="588" Y="205" />
+    <Module Name="X20AI4322" Type="X20AI4322" X="588" Y="205" />
+    <Module Name="X20TB12b" Type="X20TB12" X="588" Y="232" />
+    <Module Name="X20BM11b" Type="X20BM11" X="601" Y="205" />
+    <Module Name="X20DI2372a" Type="X20DI2372" X="601" Y="205" />
+    <Module Name="X20TB12c" Type="X20TB12" X="601" Y="232" />
+    <Module Name="X20BM11c" Type="X20BM11" X="614" Y="205" />
+    <Module Name="X20DI2372b" Type="X20DI2372" X="614" Y="205" />
+    <Module Name="X20TB12d" Type="X20TB12" X="614" Y="232" />
+    <Module Name="X20BM11d" Type="X20BM11" X="627" Y="205" />
+    <Module Name="X20DO6321" Type="X20DO6321" X="627" Y="205" />
+    <Module Name="X20TB12e" Type="X20TB12" X="627" Y="232" />
+    <Module Name="X20BM11e" Type="X20BM11" X="640" Y="205" />
+    <Module Name="X20DO6321a" Type="X20DO6321" X="640" Y="205" />
+    <Module Name="X20TB12f" Type="X20TB12" X="640" Y="232" />
+    <Module Name="X20BM11f" Type="X20BM11" X="653" Y="205" />
+    <Module Name="X20DO6321b" Type="X20DO6321" X="653" Y="205" />
+    <Module Name="X20TB12g" Type="X20TB12" X="653" Y="232" />
+    <Module Name="X20BM11g" Type="X20BM11" X="666" Y="205" />
+    <Module Name="X20CM1201" Type="X20CM1201" X="666" Y="205" />
+    <Module Name="X20TB12h" Type="X20TB12" X="666" Y="232" />
+    <Module Name="X20BM11h" Type="X20BM11" X="679" Y="205" />
+    <Module Name="X20AT6402" Type="X20AT6402" X="679" Y="205" />
+    <Module Name="X20TB12i" Type="X20TB12" X="679" Y="232" />
+    <Module Name="X20BM11i" Type="X20BM11" X="692" Y="205" />
+    <Module Name="X20AT6402a" Type="X20AT6402" X="692" Y="205" />
+    <Module Name="X20TB12j" Type="X20TB12" X="692" Y="232" />
+    <Module Name="X20BM11j" Type="X20BM11" X="705" Y="205" />
+    <Module Name="X20BT9100" Type="X20BT9100" X="705" Y="205" />
+    <Module Name="X20TB12k" Type="X20TB12" X="705" Y="232" />
+    <Module Name="X20BM01" Type="X20BM01" X="793" Y="205" />
+    <Module Name="X20BR9300" Type="X20BR9300" X="793" Y="205" />
+    <Module Name="X20TB12l" Type="X20TB12" X="793" Y="232" />
+    <Module Name="X20BM11k" Type="X20BM11" X="806" Y="205" />
+    <Module Name="X20AI4322a" Type="X20AI4322" X="806" Y="205" />
+    <Module Name="X20TB12m" Type="X20TB12" X="806" Y="232" />
+    <Module Name="X20BM11l" Type="X20BM11" X="819" Y="205" />
+    <Module Name="X20AI4322b" Type="X20AI4322" X="819" Y="205" />
+    <Module Name="X20TB12n" Type="X20TB12" X="819" Y="232" />
+    <Module Name="X20BM11m" Type="X20BM11" X="832" Y="205" />
+    <Module Name="X20AI1744" Type="X20AI1744" X="832" Y="205" />
+    <Module Name="X20TB12o" Type="X20TB12" X="832" Y="232" />
+    <Module Name="6PPT50.0502-16A" Type="6PPT50.0502-16A" X="291" Y="98" />
+  </Modules>
+  <Links>
+    <Link From="6PPT50.0502-16A" To="X20CP1586" FromPort="ETH2" ToPort="IF2" IsRoutedByUser="False">
+      <Point X="457" Y="292" />
+      <Point X="457" Y="292" />
+      <Point X="457" Y="305" />
+      <Point X="457" Y="315" />
+      <Point X="352" Y="315" />
+      <Point X="352" Y="185.200012" />
+      <Point X="352" Y="181.200012" />
+      <Point X="352" Y="181.200012" />
+    </Link>
+    <Link From="X20BR9300" To="X20BT9100" FromPort="X2X1" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="712" Y="249" />
+      <Point X="712" Y="249" />
+      <Point X="719" Y="249" />
+      <Point X="792" Y="249" />
+      <Point X="799" Y="249" />
+      <Point X="799" Y="249" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

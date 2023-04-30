@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/\physical\simulation\arsim\motion\acp10cfg.ncc
+$(AS_PROJECT_PATH)/\physical\simulation\hardware.hw
+$(AS_PROJECT_PATH)/\physical\simulation\arsim\motion\acp10map.ncm

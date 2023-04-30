@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.2.93"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="mainlogic"
+      Disable="false"
+      Source="mainlogic"
+      Language="IEC">
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\mainlogic\MainLogicCyclic.cfc.var" />
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\mainlogic\MainLogicInit.cfc.var" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\mainlogic\mainlogic.var" />
+    </Task>
+    <Task
+      Name="feeder"
+      Disable="false"
+      Source="FeederArm.feeder"
+      Language="IEC">
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\feeder\feederCyclic.ld.var" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\FeederArm\feeder\feeder.var" />
+    </Task>
+    <Task
+      Name="conveyor"
+      Disable="false"
+      Source="ConveyorBelt.conveyor"
+      Language="IEC">
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\conveyor\conveyorCyclic.ld.var" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\ConveyorBelt\conveyor\conveyor.var" />
+    </Task>
+    <Task
+      Name="brewing"
+      Disable="false"
+      Source="BrewingAssembly.brewing"
+      Language="IEC">
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\brewing\brewing.st.var" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\BrewingAssembly\brewing\brewing.var" />
+    </Task>
+    <Task
+      Name="heating"
+      Disable="false"
+      Source="FlowHeater.heating"
+      Language="ANSIC">
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\FlowHeater\heating\heating.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="visCtrl"
+      Disable="false"
+      Source="Visualisation.visCtrl"
+      Language="IEC">
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\visCtrl\visCtrl.st.var" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\Visualisation\visCtrl\visCtrl.typ" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\Visualisation\visCtrl\visCtrl.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="visAlarm"
+      Disable="false"
+      Source="Visualisation.visAlarm"
+      Language="IEC">
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\visAlarm\visAlarmCyclic.st.var" />
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\visAlarm\visAlarmInit.st.var" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\Visualisation\visAlarm\visAlarm.typ" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\Visualisation\visAlarm\visAlarm.var" />
+    </Task>
+    <Task
+      Name="visTrend"
+      Disable="false"
+      Source="Visualisation.visTrend"
+      Language="IEC">
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\visTrend\visTrendCyclic.st.var" />
+      <InternalFile
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Objects\Simulation\ARsim\visTrend\visTrendInit.st.var" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\Visualisation\visTrend\visTrend.typ" />
+      <File
+        Path="D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Logical\Visualisation\visTrend\visTrend.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

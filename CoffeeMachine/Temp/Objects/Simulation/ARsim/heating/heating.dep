@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/LoopConR/LoopConR.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/LoopConR/LoopConR.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/LoopConR/LoopConR.var
+$(AS_PROJECT_PATH)/Logical/FlowHeater/heating/heating.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ

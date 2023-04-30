@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="Img_Small_Water" ClsId="0x306" Version="1" TargetIndex="105" Type="GFX" RefString="Source[local].Bitmap[Img_Small_Water]">
+        <UInt16 Name="Width">16</UInt16>
+        <UInt16 Name="Height">16</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADxSURBVDhPldKhCoNQFAZgo7BiFFTuqsUVZaDoIwyWbb6EbyAzGXyAJTGZLLbJZH3NCRZfwayeTbhc5qZy/eI53MvPz2G+eZ53DMOwdV13j0f0FEXZ2bZdZlkGuq6f8JieZVnXqqqgKAqQZfmCx39mU2qadvZ9f+i6DpIkAUEQHng1sZhSVdWyaRrI8xyCIABRFFu8mlhMaRjGMD6OogjSNAXTNHu8IlZTSpL0jOMYxt/rugae5294Raym5DjugBB6OY7Tf36+syyL8IqgSTnx2zZNSmKubZqUBO1NzKK9iUW0N7Foc9u/NrU9Z1PbDMO8AXV24qizK+W2AAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>

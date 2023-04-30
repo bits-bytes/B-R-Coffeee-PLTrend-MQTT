@@ -1,0 +1,339 @@
+<?xml version="1.0"?>
+<?hwc2hwd version="1.1"?>
+<HWD Version="2.0" xmlns="http://br-automation.com/AR/IO/HWD">
+  <Hardware Family="4" ID="5LS182.6-1" Modno="8530" UseType="2">
+    <Parameter ID="UseType" Value="2" Type="UDINT" />
+    <Parameter ID="FirmwareFile" Value="8530_0.pci" />
+    <Parameter ID="FwLoadMethod" Value="12" Type="UDINT" />
+    <Parameter ID="VendorId" Value="0x1677" Type="UDINT" />
+    <Parameter ID="NodeDetectionMethod" Value="0x82" Type="UDINT" />
+    <Parameter ID="NeededBus" Value="PCI" />
+    <Parameter ID="IOSuffix" Value="IO:VIRTIO" />
+    <Resource ID="IF1">
+      <Parameter ID="FirmwareFile" Value="8530a0.epl" />
+      <Parameter ID="PCIFuncNo" Value="0" Type="UDINT" />
+      <Parameter ID="OfferedBus" Value="P2IF" />
+      <Parameter ID="InterfaceType" Value="POWERLINK" />
+      <Parameter ID="MemEnable" Value="0" Type="UDINT" />
+      <Parameter ID="MemEnableIfArio" Value="1" Type="UDINT" />
+      <Parameter ID="IOSuffix" Value=":PLK.BUS" />
+      <Resource ID="ETH">
+        <Parameter ID="Transparent" Value="1" Type="UDINT" />
+        <Parameter ID="Classcode" Value="0x00000200" Type="UDINT" />
+        <Parameter ID="AutoPlug" Value="1" Type="UDINT" />
+        <Parameter ID="OfferedBus" Value="ETHERNET" />
+      </Resource>
+      <Channel ID="NodeSwitch">
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000019" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="USINT" />
+      </Channel>
+      <Channel ID="LinkOk01">
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x8000001A" Type="UDINT" />
+        <Parameter ID="BitOffset" Value="0" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="BOOL" />
+      </Channel>
+      <Channel ID="LinkOk02">
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x8000001A" Type="UDINT" />
+        <Parameter ID="BitOffset" Value="1" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="BOOL" />
+      </Channel>
+      <Channel ID="OutputDMAMargin">
+        <Filter Value="(NOT (Operation='EthOnly'))" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x8000000C" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="DINT" />
+      </Channel>
+    </Resource>
+    <Resource ID="SRAM">
+      <Parameter ID="PCIFuncNo" Value="1" Type="UDINT" />
+      <Parameter ID="MemLen0" Value="0x100000" Type="UDINT" />
+    </Resource>
+    <Resource ID="IO">
+      <Parameter ID="Transparent" Value="1" Type="UDINT" />
+      <Parameter ID="PCIFuncNo" Value="2" Type="UDINT" />
+      <Parameter ID="IoOffset0" Value="0x0" Type="UDINT" />
+      <Parameter ID="Classcode" Value="0x2000001A" Type="UDINT" />
+      <Parameter ID="TimerFrequency" Value="1017" Type="UDINT" />
+      <Parameter ID="ARIOMaster" Value="1" Type="UDINT" />
+      <Parameter ID="PCIFullLoadPercent" Value="125" Type="UDINT" />
+      <Channel ID="ModuleOk">
+        <Parameter ID="Ext" Value="/OK" />
+        <Parameter ID="Address" Value="0" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="BOOL" />
+      </Channel>
+      <Channel ID="DigitalOutput01">
+        <Parameter ID="Address" Value="0" Type="UDINT" />
+        <Parameter ID="BitOffset" Value="0" Type="UDINT" />
+        <Parameter ID="Direction" Value="OUT" />
+        <Parameter ID="Type" Value="BOOL" />
+      </Channel>
+      <Channel ID="PCILoadPercentFirstHalf">
+        <Filter Value="(PCIMonitoring='on') OR (PCIMonitoring='ext')" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000501" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="USINT" />
+      </Channel>
+      <Channel ID="PCILoadPercentSecondHalf">
+        <Filter Value="(PCIMonitoring='on') OR (PCIMonitoring='ext')" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000502" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="USINT" />
+      </Channel>
+      <Channel ID="PCICyclesFirstHalf">
+        <Filter Value="PCIMonitoring='ext'" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000521" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+      </Channel>
+      <Channel ID="PCICyclesSecondHalf">
+        <Filter Value="PCIMonitoring='ext'" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000522" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+      </Channel>
+      <Channel ID="PCILoadCyclesFirstHalf">
+        <Filter Value="PCIMonitoring='ext'" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000531" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+      </Channel>
+      <Channel ID="PCILoadCyclesSecondHalf">
+        <Filter Value="PCIMonitoring='ext'" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000532" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+      </Channel>
+      <Channel ID="PCIIOCyclesFirstHalf">
+        <Filter Value="PCIMonitoring='ext'" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000541" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+      </Channel>
+      <Channel ID="PCIIOCyclesSecondHalf">
+        <Filter Value="PCIMonitoring='ext'" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000542" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+      </Channel>
+      <Channel ID="PCIDMACyclesFirstHalf">
+        <Filter Value="PCIMonitoring='ext'" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000551" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+      </Channel>
+      <Channel ID="PCIDMACyclesSecondHalf">
+        <Filter Value="PCIMonitoring='ext'" />
+        <Parameter ID="Ext" Value="/INFO" />
+        <Parameter ID="Address" Value="0x80000552" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+      </Channel>
+    </Resource>
+    <Resource ID="VIRTIO">
+      <Parameter ID="Transparent" Value="1" Type="UDINT" />
+      <Parameter ID="Classcode" Value="0x20000022" Type="UDINT" />
+      <Parameter ID="ARIOMaster" Value="1" Type="UDINT" />
+      <Channel ID="SerialNumber">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="4" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UDINT" />
+        <Parameter ID="ChannelType" Value="HWTree" />
+        <Parameter ID="AliasName" Value="Serial_Number" />
+      </Channel>
+      <Channel ID="ModuleID">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="1" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UINT" />
+        <Parameter ID="ChannelType" Value="HWTree" />
+        <Parameter ID="AliasName" Value="Modno" />
+      </Channel>
+      <Channel ID="HardwareVariant">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="2" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UINT" />
+        <Parameter ID="ChannelType" Value="HWTree" />
+      </Channel>
+      <Channel ID="FirmwareVersion">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="3" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="UINT" />
+        <Parameter ID="ChannelType" Value="HWTree" />
+      </Channel>
+      <Channel ID="BatteryStatus">
+        <Parameter ID="Ext" Value="/HW" />
+        <Parameter ID="Address" Value="0" Type="UDINT" />
+        <Parameter ID="Direction" Value="IN" />
+        <Parameter ID="Type" Value="USINT" />
+        <Parameter ID="ChannelType" Value="Battery" />
+        <Parameter ID="BatteryDetectionMethod" Value="2" Type="UDINT" />
+        <Parameter ID="MemOffset0" Value="0x100000" Type="UDINT" />
+        <Parameter ID="BitOffset" Value="0" Type="UDINT" />
+        <Parameter ID="Device" Value="SRAM" />
+      </Channel>
+    </Resource>
+  </Hardware>
+  <Module ID="8AC114.60-2">
+    <Parameter ID="Modno" Type="UDINT" Value="4553" />
+    <Parameter ID="UseType" Type="UDINT" Value="6" />
+    <Parameter ID="NeededBus" Value="PL" />
+    <Parameter ID="CompatibleCode" Value="8AC112.60-1" />
+    <Parameter ID="RemoteUpdate" Type="UDINT" Value="0" />
+    <Parameter ID="Classcode" Type="UDINT" Value="0x20000014" />
+    <Parameter ID="FlexibleSize" Value="on" />
+    <Parameter ID="IOSuffix" Value=":IO" />
+    <Parameter ID="EPL_CfgVerify" Type="UDINT" Value="1" />
+    <Parameter ID="EPL_ParamStrategy" Type="STRING" Value="Load" />
+    <Parameter ID="EPL_NoResetOnConfigFail" Value="on" />
+    <Parameter ID="InSize" Type="UDINT" Value="84" Visible="false" />
+    <Parameter ID="OutSize" Type="UDINT" Value="54" Visible="false" />
+    <Parameter ID="VendorId" Type="UDINT" Value="0x0100006C" />
+    <Parameter ID="EPL_PnPByLib" Value="on" />
+    <Parameter ID="EPL_BootTimeNotActive" Type="UDINT" Value="15000000" />
+    <Resource ID="IF1">
+      <Parameter ID="Transparent" Type="UDINT" Value="1" />
+      <Parameter ID="OfferedBus" Value="ACOPOS" />
+      <Parameter ID="BusPrefix" Value="SS" />
+      <Parameter ID="BusMinSlot" Type="UDINT" Value="1" />
+      <Parameter ID="BusMaxSlot" Type="UDINT" Value="4" />
+      <Parameter ID="AutoPlug" Type="UDINT" Value="1" />
+    </Resource>
+    <Resource ID="IF2">
+      <Parameter ID="Transparent" Value="1" Type="UDINT" />
+      <Parameter ID="OfferedBus" Value="ACOPOSmotor" />
+      <Parameter ID="BusPrefix" Value="M" />
+      <Parameter ID="BusMinSlot" Value="1" Type="UDINT" />
+      <Parameter Value="1" ID="BusMaxSlot" Type="UDINT" />
+      <Parameter ID="AutoPlug" Value="1" Type="UDINT" />
+    </Resource>
+    <Channel ID="CyclicParameterRequest_AX_1">
+      <Filter Value="  FunctionModel='Configure'              OR                       ( EPL_Chained='on'                   AND                        FunctionModel='SingleAxis' )               " />
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Type="UDINT" Value="0x00012020" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Type="UDINT" Value="12" />
+      <Parameter ID="ArConfig" Value="copy" />
+    </Channel>
+    <Channel ID="CyclicDataToDrive_AX_1">
+      <Filter Value="  FunctionModel='Configure'          OR                       ( EPL_Chained='on'                   AND                        FunctionModel='SingleAxis' )               " />
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Type="UDINT" Value="0x00022020" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Type="UDINT" Value="20" />
+      <Parameter ID="ArConfig" Value="copy" />
+    </Channel>
+    <Channel ID="CyclicParameterResponse_AX_1">
+      <Filter Value="  FunctionModel='Configure'              OR                       ( EPL_Chained='on'                   AND                        FunctionModel='SingleAxis' )               " />
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Type="UDINT" Value="0x00012030" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Type="UDINT" Value="12" />
+      <Parameter ID="ArConfig" Value="copy" />
+    </Channel>
+    <Channel ID="CyclicStatusBitsResponse_AX_1">
+      <Filter Value="  FunctionModel='Configure'              OR                       ( EPL_Chained='on'                   AND                        FunctionModel='SingleAxis' )               " />
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Type="UDINT" Value="0x00022030" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Type="UDINT" Value="4" />
+      <Parameter ID="ArConfig" Value="copy" />
+    </Channel>
+    <Channel ID="CyclicMonitorData_AX_1">
+      <Filter Value="( FunctionModel='Configure'              AND                         CycMonDataAX_1='full')             OR                      ( EPL_Chained='on'                   AND                        FunctionModel='SingleAxis' )               " />
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Type="UDINT" Value="0x00032030" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Type="UDINT" Value="16" />
+      <Parameter ID="ArConfig" Value="copy" />
+    </Channel>
+    <Channel ID="CycUserFromDrive_AX_1">
+      <Filter Value="( FunctionModel='Configure'              AND                         US_FR_DRVAX_1='on')                OR                      ( EPL_Chained='on'                   AND                        FunctionModel='SingleAxis' )               " />
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Type="UDINT" Value="0x00042030" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Type="UDINT" Value="20" />
+      <Parameter ID="ArConfig" Value="copy" />
+    </Channel>
+    <Channel ID="MA1CYCSEND_AX_1">
+      <Filter Value="( FunctionModel='Configure'              AND                         Coupling_OBJ1_AX_1='on')           OR                      ( EPL_Chained='on'                   AND                        FunctionModel='SingleAxis' )               " />
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Type="UDINT" Value="0x00052030" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Type="UDINT" Value="8" />
+      <Parameter ID="ArConfig" Value="copy" />
+    </Channel>
+    <Channel ID="MA2CYCSEND_AX_1">
+      <Filter Value="( FunctionModel='Configure'              AND                         Coupling_OBJ2_AX_1='on')           OR                      ( EPL_Chained='on'                   AND                        FunctionModel='SingleAxis' )               " />
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Type="UDINT" Value="0x00062030" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Type="UDINT" Value="8" />
+      <Parameter ID="ArConfig" Value="copy" />
+    </Channel>
+    <Channel ID="MA3CYCSEND_AX_1">
+      <Filter Value="( FunctionModel='Configure'              AND                         Coupling_OBJ3_AX_1='on')           OR                      ( EPL_Chained='on'                   AND                        FunctionModel='SingleAxis' )               " />
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Type="UDINT" Value="0x00072030" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="OCTET" />
+      <Parameter ID="NrElements" Type="UDINT" Value="8" />
+      <Parameter ID="ArConfig" Value="copy" />
+    </Channel>
+  </Module>
+  <Module ID="8AC114.60-2c">
+    <Parameter ID="OrderNumber" Value="8AC114.60-2" />
+    <Parameter ID="Modno" Type="UDINT" Value="42433" />
+    <Parameter ID="NeededBus" Value="ACOPOS" />
+  </Module>
+  <Hardware ID="8V1045.00-2">
+    <Parameter ID="IgnoreConfig" Value="1" Type="UDINT" />
+  </Hardware>
+  <Hardware Family="4" ID="1A4000.00" Modno="3" UseType="1">
+    <Parameter ID="Transparent" Type="UDINT" Value="1" />
+    <Parameter ID="HwcCpuSlot" Type="UDINT" Value="0" />
+    <Parameter ID="HwcShortName" Value="AR000" />
+    <Resource ID="IF1">
+      <Parameter ID="IoBase0" Type="UDINT" Value="0x3f8" />
+      <Parameter ID="Interrupt" Type="UDINT" Value="4" />
+    </Resource>
+    <Resource ID="IF2">
+      <Parameter ID="IoBase0" Type="UDINT" Value="0x2f8" />
+      <Parameter ID="Interrupt" Type="UDINT" Value="3" />
+    </Resource>
+    <Resource ID="IF3">
+      <Parameter ID="BusAddress" Type="UDINT" Value="0x0d" />
+      <Parameter ID="PCIFuncNo" Type="UDINT" Value="0" />
+      <Parameter ID="MemEnable" Type="UDINT" Value="0" />
+      <Parameter ID="OfferedBus" Value="ETHERNET" />
+      <Parameter ID="Transparent" Type="UDINT" Value="0" />
+    </Resource>
+  </Hardware>
+</HWD>

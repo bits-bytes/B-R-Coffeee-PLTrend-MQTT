@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Runtime/runtime.fun
+$(AS_PROJECT_PATH)/Logical/FeederArm/feeder/feeder.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10_MC/acp10_mc.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Acp10man/Acp10man.typ

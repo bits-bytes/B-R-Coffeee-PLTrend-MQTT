@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<NcMapping NcSwId="Acp10" DisabledNodesAreHidden="False">
+  <NcObject Name="axConveyor" ModuleId="8V1010.00-2" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="conv_ini" AdditionalData="PLCopen_ModPos=&quot;3600,1&quot; " Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1010.00-2_ncV_AXIS1" ModuleId="8V1010.00-2" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="axFeeder" ModuleId="8V1010.00-2a" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="feed_ini" AdditionalData="PLCopen_ModPos=&quot;3600,1&quot; " Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1010.00-2a_ncV_AXIS1" ModuleId="8V1010.00-2a" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+</NcMapping>

@@ -1,0 +1,16 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="D:/B-R-Coffeee-PLTrend-MQTT/B-R-Coffeee-PLTrend-MQTT/CoffeeMachine/Physical/Simulation/ARsim/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="mainlogic" Source="mainlogic.prg" />
+      <Task Name="feeder" Source="FeederArm.feeder.prg" />
+      <Task Name="conveyor" Source="ConveyorBelt.conveyor.prg" />
+      <Task Name="brewing" Source="BrewingAssembly.brewing.prg" />
+      <Task Name="heating" Source="FlowHeater.heating.prg" />
+      <Task Name="visCtrl" Source="Visualisation.visCtrl.prg" />
+      <Task Name="visAlarm" Source="Visualisation.visAlarm.prg" />
+      <Task Name="visTrend" Source="Visualisation.visTrend.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

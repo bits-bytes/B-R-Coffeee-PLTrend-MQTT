@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Intermediate xmlns="http://br.automation.co.at/AS/VC/Intermediate">
+  <Folder Name="Bitmaps">
+    <Folder Name="POBJ">
+      <Object Name="ProgressBorder" ClsId="0x306" Version="1" TargetIndex="53" Type="GFX" RefString="Source[local].Bitmap[ProgressBorder]">
+        <UInt16 Name="Width">318</UInt16>
+        <UInt16 Name="Height">14</UInt16>
+        <UInt32 Name="BitsPerPixel">32</UInt32>
+        <Byte Name="Transparency">0</Byte>
+        <Byte Name="TargetFormat">2</Byte>
+        <UInt16 Name="Reserved">0</UInt16>
+        <Int32 Name="TransparentColor">0</Int32>
+        <Int32 Name="FillAreas">0</Int32>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAT4AAAAOCAYAAAC2NXApAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABkSURBVHhe7dzBCcAwDARBN6j+y3GIY0Fq0M3AgVEB+/TaV1WZmY1eO+H7HwCm6tYt0QOSvM0TPiCK8AFxhA+II3xAHOED4ggfEEf4gDjCB8QRPiDOCV8/AKbr1vmkwMxi9tn7AWwF/hoF/dDmAAAAAElFTkSuQmCC</Binary>
+      </Object>
+    </Folder>
+  </Folder>
+</Intermediate>
