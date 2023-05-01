@@ -1,21 +1,21 @@
-Mon Apr 10 22:27:21 2023
+Mon May  1 17:51:18 2023
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Mon Apr 10 22:27:21 2023
+Mon May  1 17:51:18 2023
 No ARsim registration found!
 
-Mon Apr 10 22:27:21 2023
-InstanceName: 000000053d3c77e2
+Mon May  1 17:51:18 2023
+InstanceName: 000002faa3fabc3f
 
-Mon Apr 10 22:27:21 2023
+Mon May  1 17:51:18 2023
 WorkingDirectory: D:\B-R-Coffeee-PLTrend-MQTT\B-R-Coffeee-PLTrend-MQTT\CoffeeMachine\Temp\Simulation\Simulation\ARsim\
 
-Mon Apr 10 22:27:21 2023
+Mon May  1 17:51:18 2023
 COMMAND_COLDSTART
 
-Mon Apr 10 22:27:23 2023
+Mon May  1 17:51:20 2023
 Version: B4.93
 
-Mon Apr 10 22:35:12 2023
+Mon May  1 20:16:00 2023
 COMMAND_TERMINATE
 
