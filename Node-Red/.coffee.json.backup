@@ -1,0 +1,1531 @@
+[
+    {
+        "id": "62c0234ec3a96d5b",
+        "type": "tab",
+        "label": "Coffee machine",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3f5d95785d7a7631",
+        "type": "mqtt-broker",
+        "name": "Coffee-Broker",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "10",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "781edea33d6faebb",
+        "type": "ui_group",
+        "name": "Control",
+        "tab": "c9a375ec9f4002ce",
+        "order": 4,
+        "disp": true,
+        "width": 15,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c9a375ec9f4002ce",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "66fb16c26e31daec",
+        "type": "ui_group",
+        "name": "Graphics",
+        "tab": "c9a375ec9f4002ce",
+        "order": 3,
+        "disp": true,
+        "width": 15,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7f3ba2ec78264e7c",
+        "type": "ui_group",
+        "name": "For next coffee ...",
+        "tab": "c9a375ec9f4002ce",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "219605ed41b096fe",
+        "type": "ui_group",
+        "name": "Consumption total",
+        "tab": "c9a375ec9f4002ce",
+        "order": 2,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f3345ea069fb174f",
+        "type": "ui_spacer",
+        "z": "62c0234ec3a96d5b",
+        "name": "spacer",
+        "group": "781edea33d6faebb",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "039cfc36ab863b2e",
+        "type": "ui_spacer",
+        "z": "62c0234ec3a96d5b",
+        "name": "spacer",
+        "group": "781edea33d6faebb",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2221de141558bece",
+        "type": "ui_spacer",
+        "z": "62c0234ec3a96d5b",
+        "name": "spacer",
+        "group": "7f3ba2ec78264e7c",
+        "order": 7,
+        "width": "1",
+        "height": "2"
+    },
+    {
+        "id": "b7c412cddd586c7b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4b47996eca609c7b",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1100 - actTemp",
+        "topic": "Coffee/1100",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 360,
+        "y": 680,
+        "wires": [
+            [
+                "e43a022c24ed6a58"
+            ]
+        ]
+    },
+    {
+        "id": "e9c2f5b47603aaf4",
+        "type": "ui_button",
+        "z": "62c0234ec3a96d5b",
+        "name": "",
+        "group": "781edea33d6faebb",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "Make Coffee",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "cmd_make_coffee",
+        "topicType": "str",
+        "x": 470,
+        "y": 220,
+        "wires": [
+            [
+                "1b9241f72340c0a7"
+            ]
+        ]
+    },
+    {
+        "id": "a913d7557540b386",
+        "type": "mqtt out",
+        "z": "62c0234ec3a96d5b",
+        "name": "dynamic",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3f5d95785d7a7631",
+        "x": 960,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "f0520e3c.80de3",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "Format-MQTT",
+        "func": "\nvar payload = msg.payload.dataValue.value.value;\nvar topic = msg.payload.monitoredItem.itemToMonitor.nodeId;\n//\n// is the TAG identifying the serial number ?\n//\nvar msgSNERR    = {topic:\"\", payload: \"\"}\n\nvar env_serialnumber    = env.get(\"SERIALNUMBER\")\nvar env_broker          = env.get(\"BROKER\")\nvar SerialNumber        = global.get(\"SerialNumber\") || env_serialnumber\n\nmsgSN = {topic: \"\", payload: \"OPC/PLC = \" + SerialNumber + \"   :   MQTT (ENV) = \" + parseInt(env_serialnumber)}\nmsgSN.SerialNumber      = SerialNumber\nmsgSN.EnvSerialNumber   = parseInt(env_serialnumber)\nmsgSN.Conflict          = SerialNumber === parseInt(env_serialnumber) ? false : true\nif (msgSN.Conflict)\n{\n    msgSNERR = {topic:\"ATT \", payload: \"   PROBLEM SN -- check this out!!\"}\n}\n\nif ((topic.value.indexOf(\"w_0_0011_value\")) > 0)\n{\n    // yes, OPC is sending serial number\n    // store global and set ENV \n    SerialNumber = parseInt(payload)\n    global.set(\"SerialNumber\", parseInt(payload))\n    node.warn(\"Serial number from OPC: \" + SerialNumber + \" ENV VARIABLE= \" + env_serialnumber)\n}\n\nvar topicBase = env_broker + \"/\"             // Topic Base MQTT Broker\n\nvar mqttTopicStart = topic.value.indexOf(':', 3)\n\nvar mqttTopic1 = topic.value.substr(mqttTopicStart + 1)\nvar mqttTopic  = topicBase + mqttTopic1\n\nwhile (mqttTopic.indexOf(\"_\") > 0)\n{\n    mqttTopic = mqttTopic.replace(\"_\", \"/\") \n}\n\nmsg.topic = mqttTopic\nmsg.payload = payload;\nmsg.retain = true\nmsg.qos = 0\n\nvar msgread = msg;\nvar dbgout  = parseFloat(payload).toFixed(3)\n\nconsole.log(Date().substr(16, 8) + \" \" + mqttTopic + \" \" + dbgout )     // + \" (\" + msg._msgid + \")\")\n\nif (mqttTopic1.substr(0, 1) == \"r\")\n{\n    console.log(\"READ Wert \" + dbgout + \" (\" + mqttTopic + \")\" )\n    return [null, msg, msgSN, msgSNERR]\n}\nelse\n    return [msg, null, msgSN, msgSNERR]\n    ",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [],
+            [],
+            [],
+            []
+        ],
+        "info": "# Aufgabe\n\nDaten vom OPC Server empfangen.\n\nUnterscheidung\n\n * WRITE variable,\n * diese wird direkt auf den MQTT broker ausgegeben\n * \n * READ variable,\n * diese wird ignoriert, alle r_xxxx Variablen werden über einen MQTT Read Request abgehandelt.\n * \n \n * \n "
+    },
+    {
+        "id": "d16cef17.e97ad",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "d": true,
+        "name": "Display Date/Time",
+        "func": "\nmsg.payload = global.get(\"ActTime\") | 0\nmsg.payload = msg.payload.replace('T', '    ')\nmsg.payload = msg.payload.substring(0, msg.payload.length - 5)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "898382d1.7a541",
+        "type": "inject",
+        "z": "62c0234ec3a96d5b",
+        "name": "",
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 960,
+        "wires": [
+            [
+                "d16cef17.e97ad"
+            ]
+        ]
+    },
+    {
+        "id": "e43a022c24ed6a58",
+        "type": "ui_chart",
+        "z": "62c0234ec3a96d5b",
+        "name": "Temp-graph",
+        "group": "66fb16c26e31daec",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Termperatur",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "5",
+        "removeOlderPoints": "2000",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#0075ff",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 990,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6368fa82255a160b",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1002 - Coffe g",
+        "topic": "Coffee/1002",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 1760,
+        "wires": [
+            [
+                "bc7bcccf965a1e99",
+                "eb835473663dfdbb"
+            ]
+        ]
+    },
+    {
+        "id": "448e438f07b7b02d",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1003 - Milk ml",
+        "topic": "Coffee/1003",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 1820,
+        "wires": [
+            [
+                "3f7b726f86fcb84f",
+                "8c3788bfd1b958d7"
+            ]
+        ]
+    },
+    {
+        "id": "5039566048c158d3",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1004 - Sugar g",
+        "topic": "Coffee/1004",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 1880,
+        "wires": [
+            [
+                "6bd73ce3e640edd1",
+                "29f815449fa2ce5a"
+            ]
+        ]
+    },
+    {
+        "id": "bc7bcccf965a1e99",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "StoreCoffee",
+        "func": "var what = \"caffee\"\n\nvar value = flow.get(what) || 0\n\nvalue = parseInt(msg.payload)\n\nflow.set(what, value)",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1760,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "146d98cb17eb1d93",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1010 - Status-Step",
+        "topic": "Coffee/1010",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 1120,
+        "wires": [
+            [
+                "dfdebfc7883a647d"
+            ]
+        ]
+    },
+    {
+        "id": "dfdebfc7883a647d",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "START Coffee",
+        "func": "\nif ((parseInt(msg.payload)) === 1)\n{\n    return msg\n}\nelse\n    return null\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1120,
+        "wires": [
+            [
+                "a82b47d129b2eff8",
+                "cc877f28d667ee50",
+                "78599315a5165514",
+                "56ee751b6954afd5",
+                "69453e9bf91f0101",
+                "6455b7fa6e2cbfbc",
+                "1c7149aca8884212",
+                "53f654de409b113f"
+            ]
+        ]
+    },
+    {
+        "id": "ade2584a9dd2e7f4",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1006 - CoffeeCost",
+        "topic": "Coffee/1006",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2000,
+        "wires": [
+            [
+                "9eb793081e0ade24",
+                "f7be5f09be290720"
+            ]
+        ]
+    },
+    {
+        "id": "3f7b726f86fcb84f",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "StoreMilk",
+        "func": "var what = \"milk\"\n\nvar value = flow.get(what) || 0\n\nvalue = parseInt(msg.payload)\n\nflow.set(what, value)",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 1820,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6bd73ce3e640edd1",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "StoreSugar",
+        "func": "var what = \"sugar\"\n\nvar value = flow.get(what) || 0\n\nvalue = parseInt(msg.payload)\n\nflow.set(what, value)",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1880,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9eb793081e0ade24",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "StorePrize",
+        "func": "var what = \"prize\"\n\nvar value = flow.get(what) || 0\n\nvalue = parseFloat(msg.payload)\n\nflow.set(what, value)",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 2000,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a82b47d129b2eff8",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "SumCoffee",
+        "func": "//\n// msg.payload  kann 0 oder 1 sein\n// 0 ... wenn Reset values -> zum update der visu\n// 1 ... wenn ein Kaffee gemacht wird -> die Werte werden erhöht\n//\nvar dose = flow.get(\"caffee\") || 0\n\nvar what = \"caffee_Sum\"\nvar value = flow.get(what) || 0\n\nvalue += dose * msg.payload\n\nmsg.payload = value\n\nflow.set(what, value)\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1240,
+        "wires": [
+            [
+                "d9a8c49665fb42a5"
+            ]
+        ]
+    },
+    {
+        "id": "d9a8c49665fb42a5",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "219605ed41b096fe",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "coffee powder / g",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 990,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "cc877f28d667ee50",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "SumTassen",
+        "func": "// \n// msg.payload  kann 0 oder 1 sein\n// 0 ... wenn Reset values -> zum update der visu\n// 1 ... wenn ein Kaffee gemacht wird -> die Werte werden erhöht\n//\nvar what = \"tassen\"\nvar dose = 1 * msg.payload\n\nvar value = flow.get(what) || 0\n\nvalue += dose\n\nmsg.payload = value\n\nflow.set(\"tassen\", value)\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1180,
+        "wires": [
+            [
+                "ef3762cb91645293"
+            ]
+        ]
+    },
+    {
+        "id": "9ca25989737206da",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1011 - Change (euro)",
+        "topic": "Coffee/1011",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 2140,
+        "wires": [
+            [
+                "33edc47576523186"
+            ]
+        ]
+    },
+    {
+        "id": "7f9fc3a7887a2ef2",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1005 - Water ml",
+        "topic": "Coffee/1005",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 1940,
+        "wires": [
+            [
+                "649d68c7804986f1",
+                "0d9eb020f6a092b6"
+            ]
+        ]
+    },
+    {
+        "id": "649d68c7804986f1",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "StoreWater",
+        "func": "var what = \"water\"\n\nvar value = flow.get(what) || 0\n\nvalue = parseInt(msg.payload)\n\nflow.set(what, value)",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1940,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "78599315a5165514",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "SumMilk",
+        "func": "//\n// msg.payload  kann 0 oder 1 sein\n// 0 ... wenn Reset values -> zum update der visu\n// 1 ... wenn ein Kaffee gemacht wird -> die Werte werden erhöht\n//\nvar dose = flow.get(\"milk\") || 0\n\nvar what = \"milk_Sum\"\nvar value = flow.get(what) || 0\n\nvalue += dose * msg.payload\n\nmsg.payload = value\n\nflow.set(what, value)\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1300,
+        "wires": [
+            [
+                "88d1360b902ca3a6"
+            ]
+        ]
+    },
+    {
+        "id": "88d1360b902ca3a6",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "219605ed41b096fe",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "milk in total / ml",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 980,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "28e18b80922e6a6a",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "CoffeeTypeText",
+        "func": "\nvar value = parseInt(msg.payload)\n\nif (value === 0)\n    msg.payload = \"Regular\"\nelse if (value === 1)\n    msg.payload = \"Cappuccino\"\nelse if (value === 2)\n    msg.payload = \"Espresso\"\n\nreturn msg\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 2060,
+        "wires": [
+            [
+                "13054dede44f23a0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "56ee751b6954afd5",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "backMoney",
+        "func": "var dose = flow.get(\"change\") || 0\n\nvar what = \"Coffee_money_back\"\nvar value = flow.get(what) || 0\n\nvalue += parseInt(dose * 100.00)\n\nmsg.payload = value / 100.0\n\nflow.set(what, value)\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1580,
+        "wires": [
+            [
+                "aa89bea53a1f2bb8"
+            ]
+        ]
+    },
+    {
+        "id": "6455b7fa6e2cbfbc",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "SumSugar",
+        "func": "//\n// msg.payload  kann 0 oder 1 sein\n// 0 ... wenn Reset values -> zum update der visu\n// 1 ... wenn ein Kaffee gemacht wird -> die Werte werden erhöht\n//\nvar dose = flow.get(\"sugar\") || 0\n\nvar what = \"sugar_Sum\"\nvar value = flow.get(what) || 0\n\nvalue += dose * msg.payload\n\nmsg.payload = value\n\nflow.set(what, value)\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1360,
+        "wires": [
+            [
+                "f9f3689feb02f608"
+            ]
+        ]
+    },
+    {
+        "id": "f9f3689feb02f608",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "219605ed41b096fe",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "sugar total / g",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 980,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "69453e9bf91f0101",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "SumWater",
+        "func": "//\n// msg.payload  kann 0 oder 1 sein\n// 0 ... wenn Reset values -> zum update der visu\n// 1 ... wenn ein Kaffee gemacht wird -> die Werte werden erhöht\n//\nvar dose = flow.get(\"water\") || 0\n\nvar what = \"water_Sum\"\nvar value = flow.get(what) || 0\n\nvalue += dose * msg.payload\n\nmsg.payload = value\n\nflow.set(what, value)\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1460,
+        "wires": [
+            [
+                "57ab66aef7db5a95"
+            ]
+        ]
+    },
+    {
+        "id": "57ab66aef7db5a95",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "219605ed41b096fe",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "water in total / ml",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 990,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "eb835473663dfdbb",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "7f3ba2ec78264e7c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "coffee powder",
+        "format": "{{msg.payload}} g",
+        "layout": "row-spread",
+        "className": "",
+        "x": 720,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "8c3788bfd1b958d7",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "7f3ba2ec78264e7c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "milk",
+        "format": "{{msg.payload}} ml",
+        "layout": "row-spread",
+        "className": "",
+        "x": 690,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "29f815449fa2ce5a",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "7f3ba2ec78264e7c",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "sugar",
+        "format": "{{msg.payload}} g",
+        "layout": "row-spread",
+        "className": "",
+        "x": 690,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "0d9eb020f6a092b6",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "7f3ba2ec78264e7c",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "water",
+        "format": "{{msg.payload}} ml",
+        "layout": "row-spread",
+        "className": "",
+        "x": 690,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "f7be5f09be290720",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "7f3ba2ec78264e7c",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "the coffee will cost ",
+        "format": "{{msg.payload}} €",
+        "layout": "row-spread",
+        "className": "",
+        "x": 730,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "9658d2f917eb165f",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1000 - CoffeeType",
+        "topic": "Coffee/1000",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 2060,
+        "wires": [
+            [
+                "28e18b80922e6a6a"
+            ]
+        ]
+    },
+    {
+        "id": "13054dede44f23a0",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "7f3ba2ec78264e7c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "... which will be",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 720,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "ef3762cb91645293",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "219605ed41b096fe",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Cups in total ",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 970,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "33edc47576523186",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "StoreChangeMoney",
+        "func": "var what = \"change\"\n\nflow.set(what, parseFloat(msg.payload))",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 2140,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "cdba32b0e293dd14",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1102 - setTemp",
+        "topic": "Coffee/1102",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 360,
+        "y": 740,
+        "wires": [
+            [
+                "8ca45e7f50164df9"
+            ]
+        ]
+    },
+    {
+        "id": "aff08a3f9c04f672",
+        "type": "inject",
+        "z": "62c0234ec3a96d5b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "every_second",
+        "payload": "",
+        "payloadType": "date",
+        "x": 390,
+        "y": 820,
+        "wires": [
+            [
+                "8ca45e7f50164df9"
+            ]
+        ]
+    },
+    {
+        "id": "8ca45e7f50164df9",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "Repeater SET Value",
+        "func": "var set_msg = context.get(\"set_msg\") || 0\n\nif (msg.topic === \"Coffee/1102\")\n{\n    set_msg = msg\n    context.set(\"set_msg\", set_msg)\n}\nif (set_msg.topic===undefined)\n    return null\nelse\n    return set_msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 820,
+        "wires": [
+            [
+                "e43a022c24ed6a58"
+            ]
+        ]
+    },
+    {
+        "id": "1c7149aca8884212",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "CoffeeMoney",
+        "func": "var dose = flow.get(\"prize\") || 0\n\nvar what = \"Coffee_money\"\nvar value = flow.get(what) || 0\n\nvalue += parseInt(dose * 100.00)\n\nmsg.payload = value / 100.00\n\nflow.set(what, value)\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1620,
+        "wires": [
+            [
+                "5f749feedf9ca2af"
+            ]
+        ]
+    },
+    {
+        "id": "5f749feedf9ca2af",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "219605ed41b096fe",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Money spent in coffee",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1000,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "aa89bea53a1f2bb8",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "219605ed41b096fe",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Money given back",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 990,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "e5f001586248ac78",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "-2001 - Given Money",
+        "topic": "Coffee/-2001",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 2220,
+        "wires": [
+            [
+                "c0ad3645315ec58d"
+            ]
+        ]
+    },
+    {
+        "id": "c0ad3645315ec58d",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "StoreGivenMoney",
+        "func": "var what = \"given_money\"\n\nvar givenmoney = parseFloat(msg.payload)\n\n// das wird gelatched, wenn der Kaffee gemacht wird,\n// ist dieser Wert bereits wieder 0\n\nif (givenmoney > 0)\n    flow.set(what, givenmoney)",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 2220,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "53f654de409b113f",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "slotMoney",
+        "func": "var dose = flow.get(\"given_money\") || 0\n\nvar what = \"Coffee_money_sum\"\nvar value = flow.get(what) || 0\n\ndose = dose * msg.payload\n\nvalue += parseInt(dose * 100.00)\n\nmsg.payload = value / 100.00\n\nflow.set(what, value)\n\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1540,
+        "wires": [
+            [
+                "619e05943848b01d"
+            ]
+        ]
+    },
+    {
+        "id": "619e05943848b01d",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "219605ed41b096fe",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Money in slot total",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 990,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "b8a2f138d517f17f",
+        "type": "mqtt out",
+        "z": "62c0234ec3a96d5b",
+        "name": "",
+        "topic": "",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "3f5d95785d7a7631",
+        "x": 750,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "778e1073eacca8cd",
+        "type": "inject",
+        "z": "62c0234ec3a96d5b",
+        "name": "timer_1sek",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "every_second",
+        "payload": "",
+        "payloadType": "date",
+        "x": 470,
+        "y": 300,
+        "wires": [
+            [
+                "1b9241f72340c0a7"
+            ]
+        ]
+    },
+    {
+        "id": "1b9241f72340c0a7",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "Befehl runterschreiben",
+        "func": "var cmd_to_clear = context.get(\"cmd_to_clear\") || 0\n\nif (msg.topic ===\"every_second\")\n{\n    // clear whatever is there to clear\n\n    if (cmd_to_clear.cmd===\"\")  // nix zu tun\n        return null\n\n    if (cmd_to_clear.duration > 0)  // noch warten ?\n    {\n        // Duration ablaufen lassen\n\n        cmd_to_clear.duration -= 1\n        context.set(\"cmd_to_clear\", cmd_to_clear)\n        return null\n    }\n    //\n    // Duration ist abgelaufen, prüfen welches Kommando \n    // zurückgesetzt werden muss\n    //\n    if (cmd_to_clear.cmd===\"cmd_make_coffee\")\n    {\n        msg.topic = \"Coffee/-2000\"\n        msg.payload = \"0\"\n\n        cmd_to_clear.cmd = \"\"\n        context.set(\"cmd_to_clear\", cmd_to_clear)\n        return msg\n    }\n    else\n    {\n        cmd_to_clear.cmd = \"\"\n        context.set(\"cmd_to_clear\", cmd_to_clear)\n        return null\n    }\n} \nelse if (msg.topic ===\"cmd_make_coffee\")\n{\n    // neues cmd: Kaffee brühen\n    \n    cmd_to_clear.duration = 3\n    cmd_to_clear.cmd = msg.topic;\n    context.set(\"cmd_to_clear\", cmd_to_clear)\n    msg.topic = \"Coffee/-2000\"\n    msg.payload = 1\n    return msg;\n}\nelse if (msg.topic === \"cmd_money_5\") {\n    // neues cmd: Kaffee brühen\n\n    cmd_to_clear.duration = 3\n    cmd_to_clear.cmd = msg.topic;\n    context.set(\"cmd_to_clear\", cmd_to_clear)\n    msg.topic = \"Coffee/-2001\"\n    msg.payload = 5.0\n    return msg;\n}\n\nelse if (msg.topic === \"cmd_page_home\") {\n    // neues cmd: Kaffee brühen\n\n    cmd_to_clear.duration = 3\n    cmd_to_clear.cmd = msg.topic;\n    context.set(\"cmd_to_clear\", cmd_to_clear)\n    msg.topic = \"Coffee/-2002\"\n    msg.payload = 10\n    return msg;\n}\n\nelse if (msg.topic === \"cmd_page_brew\") {\n    // neues cmd: Kaffee brühen\n\n    cmd_to_clear.duration = 3\n    cmd_to_clear.cmd = msg.topic;\n    context.set(\"cmd_to_clear\", cmd_to_clear)\n    msg.topic = \"Coffee/-2002\"\n    msg.payload = 11\n    return msg;\n}\n\n\n\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Der Code hier wird ausgeführt,\n// wenn der Node gestartet wird\nvar cmd_to_clear = {}\n\ncmd_to_clear.cmd = \"\"\ncmd_to_clear.duration = 0\n\ncontext.set(\"cmd_to_clear\", cmd_to_clear)",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 300,
+        "wires": [
+            [
+                "799e8c3bb5f2cf03",
+                "a913d7557540b386"
+            ]
+        ]
+    },
+    {
+        "id": "799e8c3bb5f2cf03",
+        "type": "debug",
+        "z": "62c0234ec3a96d5b",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "db2722f27e7dbca0",
+        "type": "ui_button",
+        "z": "62c0234ec3a96d5b",
+        "name": "",
+        "group": "781edea33d6faebb",
+        "order": 4,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "Insert 5 €",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "cmd_money_5",
+        "topicType": "str",
+        "x": 460,
+        "y": 360,
+        "wires": [
+            [
+                "1b9241f72340c0a7"
+            ]
+        ]
+    },
+    {
+        "id": "8ce01687ea492cf2",
+        "type": "ui_button",
+        "z": "62c0234ec3a96d5b",
+        "name": "",
+        "group": "781edea33d6faebb",
+        "order": 5,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "pageHome",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "cmd_page_home",
+        "topicType": "str",
+        "x": 470,
+        "y": 420,
+        "wires": [
+            [
+                "1b9241f72340c0a7"
+            ]
+        ]
+    },
+    {
+        "id": "d992855ba09cf703",
+        "type": "ui_button",
+        "z": "62c0234ec3a96d5b",
+        "name": "",
+        "group": "781edea33d6faebb",
+        "order": 7,
+        "width": 7,
+        "height": 1,
+        "passthru": false,
+        "label": "pageBrew",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "cmd_page_brew",
+        "topicType": "str",
+        "x": 460,
+        "y": 480,
+        "wires": [
+            [
+                "1b9241f72340c0a7"
+            ]
+        ]
+    },
+    {
+        "id": "70c295f7b4585f3c",
+        "type": "mqtt in",
+        "z": "62c0234ec3a96d5b",
+        "name": "1001 - StatusText",
+        "topic": "Coffee/1001",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "3f5d95785d7a7631",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 1700,
+        "wires": [
+            [
+                "321748924c265f95"
+            ]
+        ]
+    },
+    {
+        "id": "321748924c265f95",
+        "type": "ui_text",
+        "z": "62c0234ec3a96d5b",
+        "group": "781edea33d6faebb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "stat-text",
+        "label": "Status making coffee      ",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 700,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "0f6326fc45635bd8",
+        "type": "ui_button",
+        "z": "62c0234ec3a96d5b",
+        "name": "",
+        "group": "781edea33d6faebb",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "RESET",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "reset",
+        "topicType": "msg",
+        "x": 220,
+        "y": 1320,
+        "wires": [
+            [
+                "6d2d87d2e16b61da",
+                "8f419f6d979dc46f"
+            ]
+        ]
+    },
+    {
+        "id": "6d2d87d2e16b61da",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "function 1",
+        "func": "flow.set(\"Coffee_money\", 0)\nflow.set(\"Coffee_money_back\", 0)\nflow.set(\"Coffee_money_sum\", 0)\nflow.set(\"caffee_Sum\", 0)\nflow.set(\"milk_Sum\", 0)\nflow.set(\"sugar_Sum\", 0)\nflow.set(\"tassen\", 0)\nflow.set(\"water_Sum\", 0)\n\nmsg.payload = 0         // ; update\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 1320,
+        "wires": [
+            [
+                "cc877f28d667ee50",
+                "a82b47d129b2eff8",
+                "78599315a5165514",
+                "6455b7fa6e2cbfbc",
+                "69453e9bf91f0101"
+            ]
+        ]
+    },
+    {
+        "id": "ff1527deafcd1601",
+        "type": "inject",
+        "z": "62c0234ec3a96d5b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 60,
+        "wires": [
+            [
+                "08f93c5ac37f8b1d"
+            ]
+        ]
+    },
+    {
+        "id": "08f93c5ac37f8b1d",
+        "type": "function",
+        "z": "62c0234ec3a96d5b",
+        "name": "function 2",
+        "func": "flow.set(\"caffee\", )\nflow.set(\"change\",)\nflow.set(\"prize\")\nflow.set(\"sugar\")\nflow.set(\"water\")\nflow.set(\"milk\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8f419f6d979dc46f",
+        "type": "debug",
+        "z": "62c0234ec3a96d5b",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 1400,
+        "wires": []
+    }
+]
