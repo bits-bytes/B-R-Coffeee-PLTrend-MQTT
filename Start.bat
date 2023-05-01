@@ -38,8 +38,10 @@ echo a ... [stop  NODE-RED]
 echo:
 echo:
 if not %msg%.==. echo %msg%
+if not %msg1%.==. echo %msg1%
 if not %msg%.==. echo:
 set msg=
+set msg1=
 
 echo:
 echo A normal startup of the system would be to process the following commands
@@ -113,7 +115,8 @@ goto Start
 if %log%.==ON. echo on
 start VNC\vncviewer.exe
 if %log%.==ON. pause
-set msg="Please enter as password the letter <c>"
+set msg="Please enter as password the letter <c>.^"
+set msg1="Please do not forget to start the coffee machine (left hand side, bottom button)"
 
 goto Start
 
